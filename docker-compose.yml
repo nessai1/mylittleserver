@@ -1,4 +1,4 @@
-version: '0.1'
+version: '3'
 
 services:
   nginx:
@@ -27,11 +27,17 @@ services:
       - MYSQL_PASSWORD=mylittlepassword
     volumes:
       - ./mysql:/var/lib/mysql
+    depends_on:
+      - php-fpm
 
   php:
     build: ./php
-    container_name: php-fpm
+    expose:
+      - 9000
+    environment:
+     PHP_IDE_CONFIG: "serverName=Docker"
     links:
       - mysql
     volumes:
       - ./nginx/www:/var/www
+

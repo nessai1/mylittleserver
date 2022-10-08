@@ -715,3 +715,1630 @@
 2022/09/17 16:15:12 [notice] 1#1: start worker process 24
 2022/09/17 16:15:12 [notice] 1#1: start worker process 25
 2022/09/17 16:15:12 [notice] 1#1: start worker process 26
+2022/09/17 17:47:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/17 17:47:03 [notice] 23#23: gracefully shutting down
+2022/09/17 17:47:03 [notice] 23#23: exiting
+2022/09/17 17:47:03 [notice] 22#22: gracefully shutting down
+2022/09/17 17:47:03 [notice] 25#25: gracefully shutting down
+2022/09/17 17:47:03 [notice] 25#25: exiting
+2022/09/17 17:47:03 [notice] 24#24: gracefully shutting down
+2022/09/17 17:47:03 [notice] 24#24: exiting
+2022/09/17 17:47:03 [notice] 26#26: gracefully shutting down
+2022/09/17 17:47:03 [notice] 23#23: exit
+2022/09/17 17:47:03 [notice] 22#22: exiting
+2022/09/17 17:47:03 [notice] 25#25: exit
+2022/09/17 17:47:03 [notice] 24#24: exit
+2022/09/17 17:47:03 [notice] 26#26: exiting
+2022/09/17 17:47:03 [notice] 22#22: exit
+2022/09/17 17:47:03 [notice] 26#26: exit
+2022/09/17 17:47:03 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/09/17 17:47:03 [notice] 1#1: worker process 23 exited with code 0
+2022/09/17 17:47:03 [notice] 1#1: worker process 25 exited with code 0
+2022/09/17 17:47:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/17 17:47:03 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/09/17 17:47:03 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/09/17 17:47:03 [notice] 1#1: worker process 24 exited with code 0
+2022/09/17 17:47:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/17 17:47:03 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/09/17 17:47:03 [notice] 1#1: worker process 22 exited with code 0
+2022/09/17 17:47:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/17 17:47:03 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/09/17 17:47:03 [notice] 1#1: worker process 26 exited with code 0
+2022/09/17 17:47:03 [notice] 1#1: exit
+2022/09/17 17:47:08 [notice] 1#1: using the "epoll" event method
+2022/09/17 17:47:08 [notice] 1#1: nginx/1.23.1
+2022/09/17 17:47:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/17 17:47:08 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/09/17 17:47:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/17 17:47:08 [notice] 1#1: start worker processes
+2022/09/17 17:47:08 [notice] 1#1: start worker process 22
+2022/09/17 17:47:08 [notice] 1#1: start worker process 23
+2022/09/17 17:47:08 [notice] 1#1: start worker process 24
+2022/09/17 17:47:08 [notice] 1#1: start worker process 25
+2022/09/17 17:47:08 [notice] 1#1: start worker process 26
+2022/09/18 02:30:02 [error] 24#24: *8 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/18 02:30:06 [error] 24#24: *8 open() "/var/www/mylittleserver/public/lab1" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /lab1 HTTP/1.1", host: "localhost"
+2022/09/18 02:39:53 [error] 23#23: *14 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/18 03:30:56 [error] 23#23: *48 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/18 03:47:29 [error] 22#22: *72 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l1/"
+2022/09/18 04:03:07 [error] 24#24: *115 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/18 16:38:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/18 16:38:06 [notice] 23#23: gracefully shutting down
+2022/09/18 16:38:06 [notice] 23#23: exiting
+2022/09/18 16:38:06 [notice] 26#26: gracefully shutting down
+2022/09/18 16:38:06 [notice] 26#26: exiting
+2022/09/18 16:38:06 [notice] 25#25: gracefully shutting down
+2022/09/18 16:38:06 [notice] 25#25: exiting
+2022/09/18 16:38:06 [notice] 24#24: gracefully shutting down
+2022/09/18 16:38:06 [notice] 22#22: gracefully shutting down
+2022/09/18 16:38:06 [notice] 23#23: exit
+2022/09/18 16:38:06 [notice] 26#26: exit
+2022/09/18 16:38:06 [notice] 25#25: exit
+2022/09/18 16:38:06 [notice] 24#24: exiting
+2022/09/18 16:38:06 [notice] 22#22: exiting
+2022/09/18 16:38:06 [notice] 24#24: exit
+2022/09/18 16:38:06 [notice] 22#22: exit
+2022/09/18 16:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/09/18 16:38:06 [notice] 1#1: worker process 26 exited with code 0
+2022/09/18 16:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/18 16:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/09/18 16:38:06 [notice] 1#1: worker process 23 exited with code 0
+2022/09/18 16:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/18 16:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/09/18 16:38:06 [notice] 1#1: worker process 25 exited with code 0
+2022/09/18 16:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/18 16:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/09/18 16:38:06 [notice] 1#1: worker process 22 exited with code 0
+2022/09/18 16:38:06 [notice] 1#1: worker process 24 exited with code 0
+2022/09/18 16:38:06 [notice] 1#1: exit
+2022/09/27 17:07:54 [notice] 1#1: using the "epoll" event method
+2022/09/27 17:07:54 [notice] 1#1: nginx/1.23.1
+2022/09/27 17:07:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/27 17:07:54 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/09/27 17:07:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 17:07:54 [notice] 1#1: start worker processes
+2022/09/27 17:07:54 [notice] 1#1: start worker process 22
+2022/09/27 17:07:54 [notice] 1#1: start worker process 23
+2022/09/27 17:07:54 [notice] 1#1: start worker process 24
+2022/09/27 17:07:54 [notice] 1#1: start worker process 25
+2022/09/27 17:07:54 [notice] 1#1: start worker process 26
+2022/09/27 17:08:06 [error] 22#22: *1 "/var/www/mylittleserver/public/shop/documents/receipt_adjustment/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /shop/documents/receipt_adjustment/?inventoryManagementSource=crm HTTP/1.1", host: "localhost", referrer: "http://localhost/stream/"
+2022/09/27 17:08:11 [error] 22#22: *1 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/27 17:15:35 [error] 24#24: *4 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/27 17:19:14 [error] 26#26: *6 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/27 17:25:11 [error] 25#25: *8 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/27 17:25:14 [error] 25#25: *8 open() "/var/www/mylittleserver/public/l1/t1" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l1/t1 HTTP/1.1", host: "localhost"
+2022/09/27 17:46:40 [error] 23#23: *37 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t1/?"
+2022/09/27 21:42:54 [error] 23#23: *86 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/27 21:42:55 [error] 23#23: *86 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/27 22:20:30 [error] 24#24: *113 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t1/?"
+2022/09/27 22:22:44 [error] 24#24: *149 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t1/?"
+2022/09/28 12:04:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/28 12:04:27 [notice] 22#22: gracefully shutting down
+2022/09/28 12:04:27 [notice] 23#23: gracefully shutting down
+2022/09/28 12:04:27 [notice] 23#23: exiting
+2022/09/28 12:04:27 [notice] 24#24: gracefully shutting down
+2022/09/28 12:04:27 [notice] 24#24: exiting
+2022/09/28 12:04:27 [notice] 26#26: gracefully shutting down
+2022/09/28 12:04:27 [notice] 25#25: gracefully shutting down
+2022/09/28 12:04:27 [notice] 22#22: exiting
+2022/09/28 12:04:27 [notice] 23#23: exit
+2022/09/28 12:04:27 [notice] 24#24: exit
+2022/09/28 12:04:27 [notice] 26#26: exiting
+2022/09/28 12:04:27 [notice] 26#26: exit
+2022/09/28 12:04:27 [notice] 25#25: exiting
+2022/09/28 12:04:27 [notice] 25#25: exit
+2022/09/28 12:04:27 [notice] 22#22: exit
+2022/09/28 12:04:27 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/09/28 12:04:27 [notice] 1#1: worker process 23 exited with code 0
+2022/09/28 12:04:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 12:04:27 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/09/28 12:04:27 [notice] 1#1: worker process 24 exited with code 0
+2022/09/28 12:04:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 12:04:27 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/09/28 12:04:27 [notice] 1#1: worker process 22 exited with code 0
+2022/09/28 12:04:27 [notice] 1#1: worker process 25 exited with code 0
+2022/09/28 12:04:27 [notice] 1#1: worker process 26 exited with code 0
+2022/09/28 12:04:27 [notice] 1#1: exit
+2022/09/30 18:45:32 [notice] 1#1: using the "epoll" event method
+2022/09/30 18:45:32 [notice] 1#1: nginx/1.23.1
+2022/09/30 18:45:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/30 18:45:32 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/09/30 18:45:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/30 18:45:32 [notice] 1#1: start worker processes
+2022/09/30 18:45:32 [notice] 1#1: start worker process 21
+2022/09/30 18:45:32 [notice] 1#1: start worker process 22
+2022/09/30 18:45:32 [notice] 1#1: start worker process 23
+2022/09/30 18:45:32 [notice] 1#1: start worker process 24
+2022/09/30 18:45:32 [notice] 1#1: start worker process 25
+2022/09/30 18:45:32 [error] 21#21: *1 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/09/30 19:18:04 [error] 21#21: *13 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /test.php HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/09/30 19:32:41 [error] 22#22: *16 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "POST /backend.php HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 07:54:04 [notice] 1#1: using the "epoll" event method
+2022/10/01 07:54:04 [notice] 1#1: nginx/1.23.1
+2022/10/01 07:54:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 07:54:04 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 07:54:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 07:54:04 [notice] 1#1: start worker processes
+2022/10/01 07:54:04 [notice] 1#1: start worker process 21
+2022/10/01 07:54:04 [notice] 1#1: start worker process 22
+2022/10/01 07:54:04 [notice] 1#1: start worker process 23
+2022/10/01 07:54:04 [notice] 1#1: start worker process 24
+2022/10/01 07:54:04 [notice] 1#1: start worker process 25
+2022/10/01 07:54:16 [error] 21#21: *2 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/01 08:59:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 08:59:24 [notice] 24#24: gracefully shutting down
+2022/10/01 08:59:24 [notice] 21#21: gracefully shutting down
+2022/10/01 08:59:24 [notice] 22#22: gracefully shutting down
+2022/10/01 08:59:24 [notice] 23#23: gracefully shutting down
+2022/10/01 08:59:24 [notice] 25#25: gracefully shutting down
+2022/10/01 08:59:24 [notice] 24#24: exiting
+2022/10/01 08:59:24 [notice] 21#21: exiting
+2022/10/01 08:59:24 [notice] 22#22: exiting
+2022/10/01 08:59:24 [notice] 22#22: exit
+2022/10/01 08:59:24 [notice] 23#23: exiting
+2022/10/01 08:59:24 [notice] 25#25: exiting
+2022/10/01 08:59:24 [notice] 24#24: exit
+2022/10/01 08:59:24 [notice] 21#21: exit
+2022/10/01 08:59:24 [notice] 23#23: exit
+2022/10/01 08:59:24 [notice] 25#25: exit
+2022/10/01 08:59:24 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 08:59:24 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 08:59:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 08:59:24 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/01 08:59:24 [notice] 1#1: worker process 21 exited with code 0
+2022/10/01 08:59:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 08:59:24 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 08:59:24 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 08:59:24 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 08:59:24 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 08:59:24 [notice] 1#1: exit
+2022/10/01 09:00:15 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:00:15 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:00:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:00:15 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 09:00:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:00:15 [notice] 1#1: start worker processes
+2022/10/01 09:00:15 [notice] 1#1: start worker process 22
+2022/10/01 09:00:15 [notice] 1#1: start worker process 23
+2022/10/01 09:00:15 [notice] 1#1: start worker process 24
+2022/10/01 09:00:15 [notice] 1#1: start worker process 25
+2022/10/01 09:00:15 [notice] 1#1: start worker process 26
+2022/10/01 09:03:56 [error] 24#24: *5 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 09:11:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 09:11:21 [notice] 26#26: gracefully shutting down
+2022/10/01 09:11:21 [notice] 24#24: gracefully shutting down
+2022/10/01 09:11:21 [notice] 23#23: gracefully shutting down
+2022/10/01 09:11:21 [notice] 22#22: gracefully shutting down
+2022/10/01 09:11:21 [notice] 25#25: gracefully shutting down
+2022/10/01 09:11:21 [notice] 26#26: exiting
+2022/10/01 09:11:21 [notice] 26#26: exit
+2022/10/01 09:11:21 [notice] 24#24: exiting
+2022/10/01 09:11:21 [notice] 23#23: exiting
+2022/10/01 09:11:21 [notice] 22#22: exiting
+2022/10/01 09:11:21 [notice] 25#25: exiting
+2022/10/01 09:11:21 [notice] 24#24: exit
+2022/10/01 09:11:21 [notice] 23#23: exit
+2022/10/01 09:11:21 [notice] 22#22: exit
+2022/10/01 09:11:21 [notice] 25#25: exit
+2022/10/01 09:11:21 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 09:11:21 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 09:11:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:11:21 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 09:11:21 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 09:11:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:11:21 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 09:11:21 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 09:11:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:11:21 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 09:11:21 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 09:11:21 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 09:11:21 [notice] 1#1: exit
+2022/10/01 09:11:26 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:11:26 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:11:26 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:11:26 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 09:11:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:11:26 [notice] 1#1: start worker processes
+2022/10/01 09:11:26 [notice] 1#1: start worker process 22
+2022/10/01 09:11:26 [notice] 1#1: start worker process 23
+2022/10/01 09:11:26 [notice] 1#1: start worker process 24
+2022/10/01 09:11:26 [notice] 1#1: start worker process 25
+2022/10/01 09:11:26 [notice] 1#1: start worker process 26
+2022/10/01 09:11:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 09:11:38 [notice] 23#23: gracefully shutting down
+2022/10/01 09:11:38 [notice] 26#26: gracefully shutting down
+2022/10/01 09:11:38 [notice] 26#26: exiting
+2022/10/01 09:11:38 [notice] 24#24: gracefully shutting down
+2022/10/01 09:11:38 [notice] 24#24: exiting
+2022/10/01 09:11:38 [notice] 25#25: gracefully shutting down
+2022/10/01 09:11:38 [notice] 25#25: exiting
+2022/10/01 09:11:38 [notice] 22#22: gracefully shutting down
+2022/10/01 09:11:38 [notice] 22#22: exiting
+2022/10/01 09:11:38 [notice] 26#26: exit
+2022/10/01 09:11:38 [notice] 24#24: exit
+2022/10/01 09:11:38 [notice] 25#25: exit
+2022/10/01 09:11:38 [notice] 22#22: exit
+2022/10/01 09:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 09:11:38 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 09:11:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 09:11:38 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 09:11:38 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 09:11:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 09:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 09:11:38 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 09:11:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:12:13 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:12:13 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:12:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:12:13 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 09:12:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:12:13 [notice] 1#1: start worker processes
+2022/10/01 09:12:13 [notice] 1#1: start worker process 21
+2022/10/01 09:12:13 [notice] 1#1: start worker process 22
+2022/10/01 09:12:13 [notice] 1#1: start worker process 23
+2022/10/01 09:12:13 [notice] 1#1: start worker process 24
+2022/10/01 09:12:13 [notice] 1#1: start worker process 25
+2022/10/01 09:12:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 09:12:40 [notice] 21#21: gracefully shutting down
+2022/10/01 09:12:40 [notice] 25#25: gracefully shutting down
+2022/10/01 09:12:40 [notice] 25#25: exiting
+2022/10/01 09:12:40 [notice] 24#24: gracefully shutting down
+2022/10/01 09:12:40 [notice] 24#24: exiting
+2022/10/01 09:12:40 [notice] 22#22: gracefully shutting down
+2022/10/01 09:12:40 [notice] 22#22: exiting
+2022/10/01 09:12:40 [notice] 23#23: gracefully shutting down
+2022/10/01 09:12:40 [notice] 23#23: exiting
+2022/10/01 09:12:40 [notice] 25#25: exit
+2022/10/01 09:12:40 [notice] 24#24: exit
+2022/10/01 09:12:40 [notice] 22#22: exit
+2022/10/01 09:12:40 [notice] 23#23: exit
+2022/10/01 09:12:40 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 09:12:40 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 09:12:40 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 09:12:40 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 09:12:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:12:40 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 09:12:40 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 09:12:40 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 09:12:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:23:27 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:23:27 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:23:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:23:27 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 09:23:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:23:27 [notice] 1#1: start worker processes
+2022/10/01 09:23:27 [notice] 1#1: start worker process 22
+2022/10/01 09:23:27 [notice] 1#1: start worker process 23
+2022/10/01 09:23:27 [notice] 1#1: start worker process 24
+2022/10/01 09:23:27 [notice] 1#1: start worker process 25
+2022/10/01 09:23:27 [notice] 1#1: start worker process 26
+2022/10/01 09:29:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 09:29:06 [notice] 22#22: gracefully shutting down
+2022/10/01 09:29:06 [notice] 24#24: gracefully shutting down
+2022/10/01 09:29:06 [notice] 23#23: gracefully shutting down
+2022/10/01 09:29:06 [notice] 23#23: exiting
+2022/10/01 09:29:06 [notice] 25#25: gracefully shutting down
+2022/10/01 09:29:06 [notice] 25#25: exiting
+2022/10/01 09:29:06 [notice] 26#26: gracefully shutting down
+2022/10/01 09:29:06 [notice] 22#22: exiting
+2022/10/01 09:29:06 [notice] 24#24: exiting
+2022/10/01 09:29:06 [notice] 23#23: exit
+2022/10/01 09:29:06 [notice] 25#25: exit
+2022/10/01 09:29:06 [notice] 26#26: exiting
+2022/10/01 09:29:06 [notice] 26#26: exit
+2022/10/01 09:29:06 [notice] 22#22: exit
+2022/10/01 09:29:06 [notice] 24#24: exit
+2022/10/01 09:29:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 09:29:06 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 09:29:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:29:06 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 09:29:06 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 09:29:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:29:06 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 09:29:06 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 09:29:06 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 09:29:06 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 09:29:06 [notice] 1#1: exit
+2022/10/01 09:30:02 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:30:02 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:30:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:30:02 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 09:30:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:30:02 [notice] 1#1: start worker processes
+2022/10/01 09:30:02 [notice] 1#1: start worker process 22
+2022/10/01 09:30:02 [notice] 1#1: start worker process 23
+2022/10/01 09:30:02 [notice] 1#1: start worker process 24
+2022/10/01 09:30:02 [notice] 1#1: start worker process 25
+2022/10/01 09:30:02 [notice] 1#1: start worker process 26
+2022/10/01 09:30:19 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:30:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 09:30:56 [notice] 24#24: gracefully shutting down
+2022/10/01 09:30:56 [notice] 22#22: gracefully shutting down
+2022/10/01 09:30:56 [notice] 23#23: gracefully shutting down
+2022/10/01 09:30:56 [notice] 23#23: exiting
+2022/10/01 09:30:56 [notice] 26#26: gracefully shutting down
+2022/10/01 09:30:56 [notice] 25#25: gracefully shutting down
+2022/10/01 09:30:56 [notice] 24#24: exiting
+2022/10/01 09:30:56 [notice] 23#23: exit
+2022/10/01 09:30:56 [notice] 26#26: exiting
+2022/10/01 09:30:56 [notice] 26#26: exit
+2022/10/01 09:30:56 [notice] 25#25: exiting
+2022/10/01 09:30:56 [notice] 24#24: exit
+2022/10/01 09:30:56 [notice] 25#25: exit
+2022/10/01 09:30:56 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 09:30:56 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 09:30:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:30:56 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 09:30:56 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 09:30:56 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 09:30:56 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 09:30:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:30:56 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 09:31:13 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:31:13 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:31:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:31:13 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 09:31:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:31:13 [notice] 1#1: start worker processes
+2022/10/01 09:31:13 [notice] 1#1: start worker process 22
+2022/10/01 09:31:13 [notice] 1#1: start worker process 23
+2022/10/01 09:31:13 [notice] 1#1: start worker process 24
+2022/10/01 09:31:13 [notice] 1#1: start worker process 25
+2022/10/01 09:31:13 [notice] 1#1: start worker process 26
+2022/10/01 09:31:16 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:31:17 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:31:18 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:31:19 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:31:20 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:31:21 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:31:21 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:31:22 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:31:22 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:31:22 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:31:23 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:31:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 09:31:30 [notice] 25#25: gracefully shutting down
+2022/10/01 09:31:30 [notice] 25#25: exiting
+2022/10/01 09:31:30 [notice] 22#22: gracefully shutting down
+2022/10/01 09:31:30 [notice] 22#22: exiting
+2022/10/01 09:31:30 [notice] 23#23: gracefully shutting down
+2022/10/01 09:31:30 [notice] 26#26: gracefully shutting down
+2022/10/01 09:31:30 [notice] 26#26: exiting
+2022/10/01 09:31:30 [notice] 24#24: gracefully shutting down
+2022/10/01 09:31:30 [notice] 25#25: exit
+2022/10/01 09:31:30 [notice] 22#22: exit
+2022/10/01 09:31:30 [notice] 26#26: exit
+2022/10/01 09:31:30 [notice] 24#24: exiting
+2022/10/01 09:31:30 [notice] 24#24: exit
+2022/10/01 09:31:30 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 09:31:30 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 09:31:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:31:30 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 09:31:30 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 09:31:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:31:30 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 09:31:30 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 09:31:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:31:30 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 09:31:30 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 09:31:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:31:48 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:31:48 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:31:48 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:31:48 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 09:31:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:31:48 [notice] 1#1: start worker processes
+2022/10/01 09:31:48 [notice] 1#1: start worker process 21
+2022/10/01 09:31:48 [notice] 1#1: start worker process 22
+2022/10/01 09:31:48 [notice] 1#1: start worker process 23
+2022/10/01 09:31:48 [notice] 1#1: start worker process 24
+2022/10/01 09:31:48 [notice] 1#1: start worker process 25
+2022/10/01 09:31:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 09:31:52 [notice] 21#21: gracefully shutting down
+2022/10/01 09:31:52 [notice] 21#21: exiting
+2022/10/01 09:31:52 [notice] 23#23: gracefully shutting down
+2022/10/01 09:31:52 [notice] 23#23: exiting
+2022/10/01 09:31:52 [notice] 22#22: gracefully shutting down
+2022/10/01 09:31:52 [notice] 22#22: exiting
+2022/10/01 09:31:52 [notice] 25#25: gracefully shutting down
+2022/10/01 09:31:52 [notice] 25#25: exiting
+2022/10/01 09:31:52 [notice] 24#24: gracefully shutting down
+2022/10/01 09:31:52 [notice] 24#24: exiting
+2022/10/01 09:31:52 [notice] 21#21: exit
+2022/10/01 09:31:52 [notice] 23#23: exit
+2022/10/01 09:31:52 [notice] 22#22: exit
+2022/10/01 09:31:52 [notice] 25#25: exit
+2022/10/01 09:31:52 [notice] 24#24: exit
+2022/10/01 09:31:52 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 09:31:52 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 09:31:52 [notice] 1#1: worker process 21 exited with code 0
+2022/10/01 09:31:52 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 09:31:52 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 09:31:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:31:52 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 09:31:52 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 09:31:52 [notice] 1#1: exit
+2022/10/01 09:32:02 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:32:02 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:32:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:32:02 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 09:32:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:32:02 [notice] 1#1: start worker processes
+2022/10/01 09:32:02 [notice] 1#1: start worker process 22
+2022/10/01 09:32:02 [notice] 1#1: start worker process 23
+2022/10/01 09:32:02 [notice] 1#1: start worker process 24
+2022/10/01 09:32:02 [notice] 1#1: start worker process 25
+2022/10/01 09:32:02 [notice] 1#1: start worker process 26
+2022/10/01 09:32:03 [error] 22#22: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:32:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 09:32:32 [notice] 26#26: gracefully shutting down
+2022/10/01 09:32:32 [notice] 26#26: exiting
+2022/10/01 09:32:32 [notice] 24#24: gracefully shutting down
+2022/10/01 09:32:32 [notice] 24#24: exiting
+2022/10/01 09:32:32 [notice] 25#25: gracefully shutting down
+2022/10/01 09:32:32 [notice] 25#25: exiting
+2022/10/01 09:32:32 [notice] 23#23: gracefully shutting down
+2022/10/01 09:32:32 [notice] 22#22: gracefully shutting down
+2022/10/01 09:32:32 [notice] 26#26: exit
+2022/10/01 09:32:32 [notice] 24#24: exit
+2022/10/01 09:32:32 [notice] 25#25: exit
+2022/10/01 09:32:32 [notice] 23#23: exiting
+2022/10/01 09:32:32 [notice] 23#23: exit
+2022/10/01 09:32:32 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 09:32:32 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 09:32:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:32:32 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 09:32:32 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 09:32:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:32:32 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 09:32:32 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 09:32:32 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 09:32:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:32:43 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:32:43 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:32:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:32:43 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 09:32:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:32:43 [notice] 1#1: start worker processes
+2022/10/01 09:32:43 [notice] 1#1: start worker process 22
+2022/10/01 09:32:43 [notice] 1#1: start worker process 23
+2022/10/01 09:32:43 [notice] 1#1: start worker process 24
+2022/10/01 09:32:43 [notice] 1#1: start worker process 25
+2022/10/01 09:32:43 [notice] 1#1: start worker process 26
+2022/10/01 09:38:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 09:38:14 [notice] 22#22: gracefully shutting down
+2022/10/01 09:38:14 [notice] 22#22: exiting
+2022/10/01 09:38:14 [notice] 23#23: gracefully shutting down
+2022/10/01 09:38:14 [notice] 23#23: exiting
+2022/10/01 09:38:14 [notice] 25#25: gracefully shutting down
+2022/10/01 09:38:14 [notice] 25#25: exiting
+2022/10/01 09:38:14 [notice] 24#24: gracefully shutting down
+2022/10/01 09:38:14 [notice] 24#24: exiting
+2022/10/01 09:38:14 [notice] 26#26: gracefully shutting down
+2022/10/01 09:38:14 [notice] 26#26: exiting
+2022/10/01 09:38:14 [notice] 22#22: exit
+2022/10/01 09:38:14 [notice] 23#23: exit
+2022/10/01 09:38:14 [notice] 25#25: exit
+2022/10/01 09:38:14 [notice] 24#24: exit
+2022/10/01 09:38:14 [notice] 26#26: exit
+2022/10/01 09:38:14 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 09:38:14 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 09:38:14 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 09:38:14 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 09:38:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:38:14 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 09:38:14 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 09:38:14 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 09:38:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:38:14 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 09:38:14 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 09:38:14 [notice] 1#1: exit
+2022/10/01 09:38:23 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:38:23 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:38:23 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:38:23 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 09:38:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:38:23 [notice] 1#1: start worker processes
+2022/10/01 09:38:23 [notice] 1#1: start worker process 22
+2022/10/01 09:38:23 [notice] 1#1: start worker process 23
+2022/10/01 09:38:23 [notice] 1#1: start worker process 24
+2022/10/01 09:38:23 [notice] 1#1: start worker process 25
+2022/10/01 09:38:23 [notice] 1#1: start worker process 26
+2022/10/01 09:49:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 09:49:00 [notice] 22#22: gracefully shutting down
+2022/10/01 09:49:00 [notice] 22#22: exiting
+2022/10/01 09:49:00 [notice] 23#23: gracefully shutting down
+2022/10/01 09:49:00 [notice] 23#23: exiting
+2022/10/01 09:49:00 [notice] 24#24: gracefully shutting down
+2022/10/01 09:49:00 [notice] 24#24: exiting
+2022/10/01 09:49:00 [notice] 25#25: gracefully shutting down
+2022/10/01 09:49:00 [notice] 26#26: gracefully shutting down
+2022/10/01 09:49:00 [notice] 22#22: exit
+2022/10/01 09:49:00 [notice] 23#23: exit
+2022/10/01 09:49:00 [notice] 24#24: exit
+2022/10/01 09:49:00 [notice] 25#25: exiting
+2022/10/01 09:49:00 [notice] 25#25: exit
+2022/10/01 09:49:00 [notice] 26#26: exiting
+2022/10/01 09:49:00 [notice] 26#26: exit
+2022/10/01 09:49:00 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 09:49:00 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 09:49:00 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 09:49:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:49:00 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 09:49:00 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 09:49:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:49:00 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 09:49:00 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 09:49:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 09:49:00 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 09:49:00 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 09:49:00 [notice] 1#1: exit
+2022/10/01 09:49:05 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:49:05 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:49:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:49:05 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 09:49:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:49:05 [notice] 1#1: start worker processes
+2022/10/01 09:49:05 [notice] 1#1: start worker process 22
+2022/10/01 09:49:05 [notice] 1#1: start worker process 23
+2022/10/01 09:49:05 [notice] 1#1: start worker process 24
+2022/10/01 09:49:05 [notice] 1#1: start worker process 25
+2022/10/01 09:49:05 [notice] 1#1: start worker process 26
+2022/10/01 09:50:12 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 09:50:13 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9001 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 10:23:54 [error] 24#24: *5 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:25:47 [error] 25#25: *6 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:25:55 [error] 26#26: *7 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:25:57 [error] 22#22: *8 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:25:57 [error] 22#22: *9 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:25:58 [error] 22#22: *10 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:25:58 [error] 22#22: *11 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:26:04 [error] 22#22: *12 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:26:11 [error] 22#22: *13 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "127.0.0.1"
+2022/10/01 10:26:12 [error] 22#22: *14 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "127.0.0.1"
+2022/10/01 10:26:12 [error] 22#22: *15 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "127.0.0.1"
+2022/10/01 10:26:12 [error] 22#22: *16 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "127.0.0.1"
+2022/10/01 10:26:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 10:26:18 [notice] 25#25: gracefully shutting down
+2022/10/01 10:26:18 [notice] 25#25: exiting
+2022/10/01 10:26:18 [notice] 24#24: gracefully shutting down
+2022/10/01 10:26:18 [notice] 26#26: gracefully shutting down
+2022/10/01 10:26:18 [notice] 22#22: gracefully shutting down
+2022/10/01 10:26:18 [notice] 23#23: gracefully shutting down
+2022/10/01 10:26:18 [notice] 25#25: exit
+2022/10/01 10:26:18 [notice] 24#24: exiting
+2022/10/01 10:26:18 [notice] 26#26: exiting
+2022/10/01 10:26:18 [notice] 26#26: exit
+2022/10/01 10:26:18 [notice] 22#22: exiting
+2022/10/01 10:26:18 [notice] 22#22: exit
+2022/10/01 10:26:18 [notice] 23#23: exiting
+2022/10/01 10:26:18 [notice] 24#24: exit
+2022/10/01 10:26:18 [notice] 23#23: exit
+2022/10/01 10:26:18 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 10:26:18 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 10:26:18 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 10:26:18 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 10:26:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 10:26:18 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 10:26:18 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 10:26:18 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 10:26:18 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 10:26:18 [notice] 1#1: exit
+2022/10/01 10:29:10 [notice] 1#1: using the "epoll" event method
+2022/10/01 10:29:10 [notice] 1#1: nginx/1.23.1
+2022/10/01 10:29:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 10:29:10 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 10:29:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 10:29:10 [notice] 1#1: start worker processes
+2022/10/01 10:29:10 [notice] 1#1: start worker process 21
+2022/10/01 10:29:10 [notice] 1#1: start worker process 22
+2022/10/01 10:29:10 [notice] 1#1: start worker process 23
+2022/10/01 10:29:10 [notice] 1#1: start worker process 24
+2022/10/01 10:29:10 [notice] 1#1: start worker process 25
+2022/10/01 10:29:16 [error] 21#21: *1 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /public/_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:29:17 [error] 22#22: *2 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /public/_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:29:18 [error] 23#23: *3 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /public/_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:29:18 [error] 24#24: *4 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /public/_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:29:18 [error] 25#25: *5 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /public/_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:29:18 [error] 21#21: *6 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /public/_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:29:18 [error] 21#21: *7 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /public/_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 10:52:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 10:52:29 [notice] 21#21: gracefully shutting down
+2022/10/01 10:52:29 [notice] 25#25: gracefully shutting down
+2022/10/01 10:52:29 [notice] 25#25: exiting
+2022/10/01 10:52:29 [notice] 22#22: gracefully shutting down
+2022/10/01 10:52:29 [notice] 23#23: gracefully shutting down
+2022/10/01 10:52:29 [notice] 23#23: exiting
+2022/10/01 10:52:29 [notice] 24#24: gracefully shutting down
+2022/10/01 10:52:29 [notice] 21#21: exiting
+2022/10/01 10:52:29 [notice] 21#21: exit
+2022/10/01 10:52:29 [notice] 25#25: exit
+2022/10/01 10:52:29 [notice] 22#22: exiting
+2022/10/01 10:52:29 [notice] 22#22: exit
+2022/10/01 10:52:29 [notice] 23#23: exit
+2022/10/01 10:52:29 [notice] 24#24: exiting
+2022/10/01 10:52:29 [notice] 24#24: exit
+2022/10/01 10:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/01 10:52:29 [notice] 1#1: worker process 21 exited with code 0
+2022/10/01 10:52:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 10:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 10:52:29 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 10:52:29 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 10:52:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 10:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 10:52:29 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 10:52:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 10:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 10:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 10:52:29 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 10:52:29 [notice] 1#1: exit
+2022/10/01 11:00:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/nginx.conf:13
+2022/10/01 11:18:57 [notice] 1#1: using the "epoll" event method
+2022/10/01 11:18:57 [notice] 1#1: nginx/1.23.1
+2022/10/01 11:18:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 11:18:57 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 11:18:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 11:18:57 [notice] 1#1: start worker processes
+2022/10/01 11:18:57 [notice] 1#1: start worker process 23
+2022/10/01 11:18:57 [notice] 1#1: start worker process 24
+2022/10/01 11:18:57 [notice] 1#1: start worker process 25
+2022/10/01 11:18:57 [notice] 1#1: start worker process 26
+2022/10/01 11:18:57 [notice] 1#1: start worker process 27
+2022/10/01 11:23:01 [notice] 1#1: using the "epoll" event method
+2022/10/01 11:23:01 [notice] 1#1: nginx/1.23.1
+2022/10/01 11:23:01 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 11:23:01 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 11:23:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 11:23:01 [notice] 1#1: start worker processes
+2022/10/01 11:23:01 [notice] 1#1: start worker process 22
+2022/10/01 11:23:01 [notice] 1#1: start worker process 23
+2022/10/01 11:23:01 [notice] 1#1: start worker process 24
+2022/10/01 11:23:01 [notice] 1#1: start worker process 25
+2022/10/01 11:23:01 [notice] 1#1: start worker process 26
+2022/10/01 11:23:05 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.220.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.220.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://192.168.220.3:9000", host: "localhost"
+2022/10/01 11:23:52 [notice] 1#1: using the "epoll" event method
+2022/10/01 11:23:52 [notice] 1#1: nginx/1.23.1
+2022/10/01 11:23:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 11:23:52 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 11:23:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 11:23:52 [notice] 1#1: start worker processes
+2022/10/01 11:23:52 [notice] 1#1: start worker process 22
+2022/10/01 11:23:52 [notice] 1#1: start worker process 23
+2022/10/01 11:23:52 [notice] 1#1: start worker process 24
+2022/10/01 11:23:52 [notice] 1#1: start worker process 25
+2022/10/01 11:23:52 [notice] 1#1: start worker process 26
+2022/10/01 11:25:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 11:25:10 [notice] 23#23: gracefully shutting down
+2022/10/01 11:25:10 [notice] 24#24: gracefully shutting down
+2022/10/01 11:25:10 [notice] 24#24: exiting
+2022/10/01 11:25:10 [notice] 26#26: gracefully shutting down
+2022/10/01 11:25:10 [notice] 26#26: exiting
+2022/10/01 11:25:10 [notice] 22#22: gracefully shutting down
+2022/10/01 11:25:10 [notice] 22#22: exiting
+2022/10/01 11:25:10 [notice] 25#25: gracefully shutting down
+2022/10/01 11:25:10 [notice] 25#25: exiting
+2022/10/01 11:25:10 [notice] 23#23: exiting
+2022/10/01 11:25:10 [notice] 23#23: exit
+2022/10/01 11:25:10 [notice] 24#24: exit
+2022/10/01 11:25:10 [notice] 26#26: exit
+2022/10/01 11:25:10 [notice] 22#22: exit
+2022/10/01 11:25:10 [notice] 25#25: exit
+2022/10/01 11:25:10 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 11:25:10 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 11:25:10 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 11:25:10 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 11:25:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:25:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:25:10 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 11:25:10 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 11:25:10 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 11:25:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:25:10 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 11:25:10 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 11:25:10 [notice] 1#1: exit
+2022/10/01 11:25:27 [notice] 1#1: using the "epoll" event method
+2022/10/01 11:25:27 [notice] 1#1: nginx/1.23.1
+2022/10/01 11:25:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 11:25:27 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 11:25:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 11:25:27 [notice] 1#1: start worker processes
+2022/10/01 11:25:27 [notice] 1#1: start worker process 22
+2022/10/01 11:25:27 [notice] 1#1: start worker process 23
+2022/10/01 11:25:27 [notice] 1#1: start worker process 24
+2022/10/01 11:25:27 [notice] 1#1: start worker process 25
+2022/10/01 11:25:27 [notice] 1#1: start worker process 26
+2022/10/01 11:26:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 11:26:05 [notice] 25#25: gracefully shutting down
+2022/10/01 11:26:05 [notice] 25#25: exiting
+2022/10/01 11:26:05 [notice] 22#22: gracefully shutting down
+2022/10/01 11:26:05 [notice] 22#22: exiting
+2022/10/01 11:26:05 [notice] 26#26: gracefully shutting down
+2022/10/01 11:26:05 [notice] 26#26: exiting
+2022/10/01 11:26:05 [notice] 24#24: gracefully shutting down
+2022/10/01 11:26:05 [notice] 24#24: exiting
+2022/10/01 11:26:05 [notice] 23#23: gracefully shutting down
+2022/10/01 11:26:05 [notice] 25#25: exit
+2022/10/01 11:26:05 [notice] 22#22: exit
+2022/10/01 11:26:05 [notice] 26#26: exit
+2022/10/01 11:26:05 [notice] 24#24: exit
+2022/10/01 11:26:05 [notice] 23#23: exiting
+2022/10/01 11:26:05 [notice] 23#23: exit
+2022/10/01 11:26:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 11:26:05 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 11:26:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:26:05 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 11:26:05 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 11:26:05 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 11:26:05 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 11:26:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:26:05 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 11:26:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 11:26:05 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 11:26:05 [notice] 1#1: exit
+2022/10/01 11:26:14 [notice] 1#1: using the "epoll" event method
+2022/10/01 11:26:14 [notice] 1#1: nginx/1.23.1
+2022/10/01 11:26:14 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 11:26:14 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 11:26:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 11:26:14 [notice] 1#1: start worker processes
+2022/10/01 11:26:14 [notice] 1#1: start worker process 22
+2022/10/01 11:26:14 [notice] 1#1: start worker process 23
+2022/10/01 11:26:14 [notice] 1#1: start worker process 24
+2022/10/01 11:26:14 [notice] 1#1: start worker process 25
+2022/10/01 11:26:14 [notice] 1#1: start worker process 26
+2022/10/01 11:44:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 11:44:14 [notice] 23#23: gracefully shutting down
+2022/10/01 11:44:14 [notice] 22#22: gracefully shutting down
+2022/10/01 11:44:14 [notice] 24#24: gracefully shutting down
+2022/10/01 11:44:14 [notice] 26#26: gracefully shutting down
+2022/10/01 11:44:14 [notice] 25#25: gracefully shutting down
+2022/10/01 11:44:14 [notice] 23#23: exiting
+2022/10/01 11:44:14 [notice] 22#22: exiting
+2022/10/01 11:44:14 [notice] 24#24: exiting
+2022/10/01 11:44:14 [notice] 24#24: exit
+2022/10/01 11:44:14 [notice] 26#26: exiting
+2022/10/01 11:44:14 [notice] 26#26: exit
+2022/10/01 11:44:14 [notice] 25#25: exiting
+2022/10/01 11:44:14 [notice] 23#23: exit
+2022/10/01 11:44:14 [notice] 22#22: exit
+2022/10/01 11:44:14 [notice] 25#25: exit
+2022/10/01 11:44:14 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 11:44:14 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 11:44:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:44:14 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 11:44:14 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 11:44:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:44:14 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 11:44:14 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 11:44:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:44:14 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 11:44:14 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 11:44:14 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 11:44:14 [notice] 1#1: exit
+2022/10/01 11:44:24 [notice] 1#1: using the "epoll" event method
+2022/10/01 11:44:24 [notice] 1#1: nginx/1.23.1
+2022/10/01 11:44:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 11:44:24 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 11:44:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 11:44:24 [notice] 1#1: start worker processes
+2022/10/01 11:44:24 [notice] 1#1: start worker process 22
+2022/10/01 11:44:24 [notice] 1#1: start worker process 23
+2022/10/01 11:44:24 [notice] 1#1: start worker process 24
+2022/10/01 11:44:24 [notice] 1#1: start worker process 25
+2022/10/01 11:44:24 [notice] 1#1: start worker process 26
+2022/10/01 11:47:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 11:47:08 [notice] 22#22: gracefully shutting down
+2022/10/01 11:47:08 [notice] 22#22: exiting
+2022/10/01 11:47:08 [notice] 26#26: gracefully shutting down
+2022/10/01 11:47:08 [notice] 26#26: exiting
+2022/10/01 11:47:08 [notice] 24#24: gracefully shutting down
+2022/10/01 11:47:08 [notice] 24#24: exiting
+2022/10/01 11:47:08 [notice] 25#25: gracefully shutting down
+2022/10/01 11:47:08 [notice] 23#23: gracefully shutting down
+2022/10/01 11:47:08 [notice] 23#23: exiting
+2022/10/01 11:47:08 [notice] 22#22: exit
+2022/10/01 11:47:08 [notice] 26#26: exit
+2022/10/01 11:47:08 [notice] 24#24: exit
+2022/10/01 11:47:08 [notice] 25#25: exiting
+2022/10/01 11:47:08 [notice] 23#23: exit
+2022/10/01 11:47:08 [notice] 25#25: exit
+2022/10/01 11:47:08 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 11:47:08 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 11:47:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:47:08 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 11:47:08 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 11:47:08 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 11:47:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:47:08 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 11:47:08 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 11:47:08 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 11:47:08 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 11:47:08 [notice] 1#1: exit
+2022/10/01 11:47:08 [notice] 1#1: using the "epoll" event method
+2022/10/01 11:47:08 [notice] 1#1: nginx/1.23.1
+2022/10/01 11:47:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 11:47:08 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 11:47:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 11:47:08 [notice] 1#1: start worker processes
+2022/10/01 11:47:08 [notice] 1#1: start worker process 21
+2022/10/01 11:47:08 [notice] 1#1: start worker process 22
+2022/10/01 11:47:08 [notice] 1#1: start worker process 23
+2022/10/01 11:47:08 [notice] 1#1: start worker process 24
+2022/10/01 11:47:08 [notice] 1#1: start worker process 25
+2022/10/01 11:54:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 11:54:11 [notice] 22#22: gracefully shutting down
+2022/10/01 11:54:11 [notice] 24#24: gracefully shutting down
+2022/10/01 11:54:11 [notice] 23#23: gracefully shutting down
+2022/10/01 11:54:11 [notice] 21#21: gracefully shutting down
+2022/10/01 11:54:11 [notice] 25#25: gracefully shutting down
+2022/10/01 11:54:11 [notice] 22#22: exiting
+2022/10/01 11:54:11 [notice] 24#24: exiting
+2022/10/01 11:54:11 [notice] 23#23: exiting
+2022/10/01 11:54:11 [notice] 23#23: exit
+2022/10/01 11:54:11 [notice] 21#21: exiting
+2022/10/01 11:54:11 [notice] 25#25: exiting
+2022/10/01 11:54:11 [notice] 22#22: exit
+2022/10/01 11:54:11 [notice] 24#24: exit
+2022/10/01 11:54:11 [notice] 21#21: exit
+2022/10/01 11:54:11 [notice] 25#25: exit
+2022/10/01 11:54:11 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 11:54:11 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 11:54:11 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 11:54:11 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 11:54:11 [notice] 1#1: worker process 21 exited with code 0
+2022/10/01 11:54:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:54:11 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 11:54:11 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 11:54:11 [notice] 1#1: exit
+2022/10/01 11:54:33 [notice] 1#1: using the "epoll" event method
+2022/10/01 11:54:33 [notice] 1#1: nginx/1.23.1
+2022/10/01 11:54:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 11:54:33 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 11:54:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 11:54:33 [notice] 1#1: start worker processes
+2022/10/01 11:54:33 [notice] 1#1: start worker process 22
+2022/10/01 11:54:33 [notice] 1#1: start worker process 23
+2022/10/01 11:54:33 [notice] 1#1: start worker process 24
+2022/10/01 11:54:33 [notice] 1#1: start worker process 25
+2022/10/01 11:54:33 [notice] 1#1: start worker process 26
+2022/10/01 11:55:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 11:55:40 [notice] 23#23: gracefully shutting down
+2022/10/01 11:55:40 [notice] 22#22: gracefully shutting down
+2022/10/01 11:55:40 [notice] 22#22: exiting
+2022/10/01 11:55:40 [notice] 25#25: gracefully shutting down
+2022/10/01 11:55:40 [notice] 24#24: gracefully shutting down
+2022/10/01 11:55:40 [notice] 26#26: gracefully shutting down
+2022/10/01 11:55:40 [notice] 23#23: exiting
+2022/10/01 11:55:40 [notice] 23#23: exit
+2022/10/01 11:55:40 [notice] 22#22: exit
+2022/10/01 11:55:40 [notice] 25#25: exiting
+2022/10/01 11:55:40 [notice] 24#24: exiting
+2022/10/01 11:55:40 [notice] 24#24: exit
+2022/10/01 11:55:40 [notice] 26#26: exiting
+2022/10/01 11:55:40 [notice] 25#25: exit
+2022/10/01 11:55:40 [notice] 26#26: exit
+2022/10/01 11:55:40 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 11:55:40 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 11:55:40 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 11:55:40 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 11:55:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:55:40 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 11:55:40 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 11:55:40 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 11:55:40 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 11:55:40 [notice] 1#1: exit
+2022/10/01 11:55:41 [notice] 1#1: using the "epoll" event method
+2022/10/01 11:55:41 [notice] 1#1: nginx/1.23.1
+2022/10/01 11:55:41 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 11:55:41 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 11:55:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 11:55:41 [notice] 1#1: start worker processes
+2022/10/01 11:55:41 [notice] 1#1: start worker process 21
+2022/10/01 11:55:41 [notice] 1#1: start worker process 22
+2022/10/01 11:55:41 [notice] 1#1: start worker process 23
+2022/10/01 11:55:41 [notice] 1#1: start worker process 24
+2022/10/01 11:55:41 [notice] 1#1: start worker process 25
+2022/10/01 11:55:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 11:55:49 [notice] 22#22: gracefully shutting down
+2022/10/01 11:55:49 [notice] 22#22: exiting
+2022/10/01 11:55:49 [notice] 21#21: gracefully shutting down
+2022/10/01 11:55:49 [notice] 21#21: exiting
+2022/10/01 11:55:49 [notice] 23#23: gracefully shutting down
+2022/10/01 11:55:49 [notice] 23#23: exiting
+2022/10/01 11:55:49 [notice] 24#24: gracefully shutting down
+2022/10/01 11:55:49 [notice] 24#24: exiting
+2022/10/01 11:55:49 [notice] 25#25: gracefully shutting down
+2022/10/01 11:55:49 [notice] 22#22: exit
+2022/10/01 11:55:49 [notice] 21#21: exit
+2022/10/01 11:55:49 [notice] 23#23: exit
+2022/10/01 11:55:49 [notice] 24#24: exit
+2022/10/01 11:55:49 [notice] 25#25: exiting
+2022/10/01 11:55:49 [notice] 25#25: exit
+2022/10/01 11:55:49 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/01 11:55:49 [notice] 1#1: worker process 21 exited with code 0
+2022/10/01 11:55:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:55:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 11:55:49 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 11:55:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:55:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 11:55:49 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 11:55:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:55:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 11:55:49 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 11:55:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 11:55:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 11:55:49 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 11:55:49 [notice] 1#1: exit
+2022/10/01 12:00:48 [notice] 1#1: using the "epoll" event method
+2022/10/01 12:00:48 [notice] 1#1: nginx/1.23.1
+2022/10/01 12:00:48 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 12:00:48 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 12:00:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 12:00:48 [notice] 1#1: start worker processes
+2022/10/01 12:00:48 [notice] 1#1: start worker process 22
+2022/10/01 12:00:48 [notice] 1#1: start worker process 23
+2022/10/01 12:00:48 [notice] 1#1: start worker process 24
+2022/10/01 12:00:48 [notice] 1#1: start worker process 25
+2022/10/01 12:00:48 [notice] 1#1: start worker process 26
+2022/10/01 12:04:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 12:04:17 [notice] 23#23: gracefully shutting down
+2022/10/01 12:04:17 [notice] 22#22: gracefully shutting down
+2022/10/01 12:04:17 [notice] 26#26: gracefully shutting down
+2022/10/01 12:04:17 [notice] 25#25: gracefully shutting down
+2022/10/01 12:04:17 [notice] 24#24: gracefully shutting down
+2022/10/01 12:04:17 [notice] 23#23: exiting
+2022/10/01 12:04:17 [notice] 22#22: exiting
+2022/10/01 12:04:17 [notice] 22#22: exit
+2022/10/01 12:04:17 [notice] 26#26: exiting
+2022/10/01 12:04:17 [notice] 25#25: exiting
+2022/10/01 12:04:17 [notice] 24#24: exiting
+2022/10/01 12:04:17 [notice] 24#24: exit
+2022/10/01 12:04:17 [notice] 23#23: exit
+2022/10/01 12:04:17 [notice] 26#26: exit
+2022/10/01 12:04:17 [notice] 25#25: exit
+2022/10/01 12:04:17 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 12:04:17 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 12:04:17 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 12:04:17 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 12:04:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:04:17 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 12:04:17 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 12:04:17 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 12:04:17 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 12:04:17 [notice] 1#1: exit
+2022/10/01 12:05:36 [notice] 1#1: using the "epoll" event method
+2022/10/01 12:05:36 [notice] 1#1: nginx/1.23.1
+2022/10/01 12:05:36 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 12:05:36 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 12:05:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 12:05:36 [notice] 1#1: start worker processes
+2022/10/01 12:05:36 [notice] 1#1: start worker process 22
+2022/10/01 12:05:36 [notice] 1#1: start worker process 23
+2022/10/01 12:05:36 [notice] 1#1: start worker process 24
+2022/10/01 12:05:36 [notice] 1#1: start worker process 25
+2022/10/01 12:05:36 [notice] 1#1: start worker process 26
+2022/10/01 12:05:56 [error] 22#22: *1 "/var/www/mylittleserver/public/bitrix/index.php" is not found (2: No such file or directory), client: 192.168.220.1, server: mylittleserver.dev, request: "GET /bitrix/ HTTP/1.1", host: "localhost"
+2022/10/01 12:06:01 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.220.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.220.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://192.168.220.3:9000", host: "localhost"
+2022/10/01 12:06:20 [error] 24#24: *4 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 192.168.220.1, server: mylittleserver.dev, request: "GET /public/_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 12:06:24 [error] 25#25: *5 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.220.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.220.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://192.168.220.3:9000", host: "127.0.0.1"
+2022/10/01 12:06:45 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.220.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.220.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://192.168.220.3:9000", host: "localhost"
+2022/10/01 12:06:46 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.220.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.220.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://192.168.220.3:9000", host: "localhost"
+2022/10/01 12:09:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 12:09:17 [notice] 24#24: gracefully shutting down
+2022/10/01 12:09:17 [notice] 24#24: exiting
+2022/10/01 12:09:17 [notice] 23#23: gracefully shutting down
+2022/10/01 12:09:17 [notice] 26#26: gracefully shutting down
+2022/10/01 12:09:17 [notice] 25#25: gracefully shutting down
+2022/10/01 12:09:17 [notice] 25#25: exiting
+2022/10/01 12:09:17 [notice] 22#22: gracefully shutting down
+2022/10/01 12:09:17 [notice] 24#24: exit
+2022/10/01 12:09:17 [notice] 23#23: exiting
+2022/10/01 12:09:17 [notice] 26#26: exiting
+2022/10/01 12:09:17 [notice] 26#26: exit
+2022/10/01 12:09:17 [notice] 25#25: exit
+2022/10/01 12:09:17 [notice] 22#22: exiting
+2022/10/01 12:09:17 [notice] 23#23: exit
+2022/10/01 12:09:17 [notice] 22#22: exit
+2022/10/01 12:09:17 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 12:09:17 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 12:09:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:09:17 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 12:09:17 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 12:09:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:09:17 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 12:09:17 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 12:09:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:09:17 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 12:09:17 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 12:09:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:09:17 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 12:09:17 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 12:09:17 [notice] 1#1: exit
+2022/10/01 12:09:18 [notice] 1#1: using the "epoll" event method
+2022/10/01 12:09:18 [notice] 1#1: nginx/1.23.1
+2022/10/01 12:09:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 12:09:18 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 12:09:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 12:09:18 [notice] 1#1: start worker processes
+2022/10/01 12:09:18 [notice] 1#1: start worker process 22
+2022/10/01 12:09:18 [notice] 1#1: start worker process 23
+2022/10/01 12:09:18 [notice] 1#1: start worker process 24
+2022/10/01 12:09:18 [notice] 1#1: start worker process 25
+2022/10/01 12:09:18 [notice] 1#1: start worker process 26
+2022/10/01 12:09:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 12:09:58 [notice] 22#22: gracefully shutting down
+2022/10/01 12:09:58 [notice] 22#22: exiting
+2022/10/01 12:09:58 [notice] 23#23: gracefully shutting down
+2022/10/01 12:09:58 [notice] 23#23: exiting
+2022/10/01 12:09:58 [notice] 25#25: gracefully shutting down
+2022/10/01 12:09:58 [notice] 25#25: exiting
+2022/10/01 12:09:58 [notice] 24#24: gracefully shutting down
+2022/10/01 12:09:58 [notice] 26#26: gracefully shutting down
+2022/10/01 12:09:58 [notice] 22#22: exit
+2022/10/01 12:09:58 [notice] 23#23: exit
+2022/10/01 12:09:58 [notice] 25#25: exit
+2022/10/01 12:09:58 [notice] 24#24: exiting
+2022/10/01 12:09:58 [notice] 24#24: exit
+2022/10/01 12:09:58 [notice] 26#26: exiting
+2022/10/01 12:09:58 [notice] 26#26: exit
+2022/10/01 12:09:58 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 12:09:58 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 12:09:58 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 12:09:58 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 12:09:58 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 12:09:58 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 12:09:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:09:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:09:58 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 12:09:58 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 12:09:58 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 12:09:58 [notice] 1#1: exit
+2022/10/01 12:10:16 [notice] 1#1: using the "epoll" event method
+2022/10/01 12:10:16 [notice] 1#1: nginx/1.23.1
+2022/10/01 12:10:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 12:10:16 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 12:10:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 12:10:16 [notice] 1#1: start worker processes
+2022/10/01 12:10:16 [notice] 1#1: start worker process 22
+2022/10/01 12:10:16 [notice] 1#1: start worker process 23
+2022/10/01 12:10:16 [notice] 1#1: start worker process 24
+2022/10/01 12:10:16 [notice] 1#1: start worker process 25
+2022/10/01 12:10:16 [notice] 1#1: start worker process 26
+2022/10/01 12:10:25 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:10:26 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:10:26 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:10:26 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:10:26 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:10:48 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:10:48 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:10:48 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:10:49 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:12:02 [error] 25#25: *13 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:12:02 [error] 25#25: *13 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:12:02 [error] 25#25: *13 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:14:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 12:14:02 [notice] 22#22: gracefully shutting down
+2022/10/01 12:14:02 [notice] 22#22: exiting
+2022/10/01 12:14:02 [notice] 25#25: gracefully shutting down
+2022/10/01 12:14:02 [notice] 26#26: gracefully shutting down
+2022/10/01 12:14:02 [notice] 26#26: exiting
+2022/10/01 12:14:02 [notice] 24#24: gracefully shutting down
+2022/10/01 12:14:02 [notice] 23#23: gracefully shutting down
+2022/10/01 12:14:02 [notice] 22#22: exit
+2022/10/01 12:14:02 [notice] 25#25: exiting
+2022/10/01 12:14:02 [notice] 25#25: exit
+2022/10/01 12:14:02 [notice] 26#26: exit
+2022/10/01 12:14:02 [notice] 24#24: exiting
+2022/10/01 12:14:02 [notice] 23#23: exiting
+2022/10/01 12:14:02 [notice] 24#24: exit
+2022/10/01 12:14:02 [notice] 23#23: exit
+2022/10/01 12:14:02 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 12:14:02 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 12:14:02 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 12:14:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:14:02 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 12:14:02 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/01 12:14:02 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 12:14:02 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 12:14:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:14:02 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 12:14:02 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 12:14:02 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 12:14:02 [notice] 1#1: exit
+2022/10/01 12:14:11 [notice] 1#1: using the "epoll" event method
+2022/10/01 12:14:11 [notice] 1#1: nginx/1.23.1
+2022/10/01 12:14:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 12:14:11 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 12:14:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 12:14:11 [notice] 1#1: start worker processes
+2022/10/01 12:14:11 [notice] 1#1: start worker process 22
+2022/10/01 12:14:11 [notice] 1#1: start worker process 23
+2022/10/01 12:14:11 [notice] 1#1: start worker process 24
+2022/10/01 12:14:11 [notice] 1#1: start worker process 25
+2022/10/01 12:14:11 [notice] 1#1: start worker process 26
+2022/10/01 12:14:17 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:14:17 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 12:14:37 [error] 23#23: *5 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:14:47 [error] 24#24: *7 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /public/_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 12:15:25 [error] 25#25: *8 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 12:15:26 [error] 26#26: *9 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "localhost"
+2022/10/01 12:15:28 [error] 22#22: *10 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "127.0.0.1"
+2022/10/01 12:15:29 [error] 22#22: *11 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "127.0.0.1"
+2022/10/01 12:15:29 [error] 22#22: *12 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "127.0.0.1"
+2022/10/01 12:15:29 [error] 22#22: *13 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", host: "127.0.0.1"
+2022/10/01 12:15:33 [error] 22#22: *14 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:35 [error] 22#22: *14 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:42 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:42 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:42 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:42 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:43 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:43 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:43 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:43 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:43 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:43 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:43 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:44 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:44 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:44 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:44 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:44 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:44 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:45 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:45 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:45 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:45 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:45 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:45 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:15:46 [error] 23#23: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2022/10/01 12:19:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 12:19:49 [notice] 22#22: gracefully shutting down
+2022/10/01 12:19:49 [notice] 22#22: exiting
+2022/10/01 12:19:49 [notice] 24#24: gracefully shutting down
+2022/10/01 12:19:49 [notice] 25#25: gracefully shutting down
+2022/10/01 12:19:49 [notice] 26#26: gracefully shutting down
+2022/10/01 12:19:49 [notice] 23#23: gracefully shutting down
+2022/10/01 12:19:49 [notice] 22#22: exit
+2022/10/01 12:19:49 [notice] 24#24: exiting
+2022/10/01 12:19:49 [notice] 25#25: exiting
+2022/10/01 12:19:49 [notice] 25#25: exit
+2022/10/01 12:19:49 [notice] 26#26: exiting
+2022/10/01 12:19:49 [notice] 26#26: exit
+2022/10/01 12:19:49 [notice] 23#23: exiting
+2022/10/01 12:19:49 [notice] 24#24: exit
+2022/10/01 12:19:49 [notice] 23#23: exit
+2022/10/01 12:19:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 12:19:49 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 12:19:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:19:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/01 12:19:49 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 12:19:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:19:49 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 12:19:49 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 12:19:49 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 12:19:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:19:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 12:19:49 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 12:19:49 [notice] 1#1: exit
+2022/10/01 12:20:04 [notice] 1#1: using the "epoll" event method
+2022/10/01 12:20:04 [notice] 1#1: nginx/1.23.1
+2022/10/01 12:20:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 12:20:04 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 12:20:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 12:20:04 [notice] 1#1: start worker processes
+2022/10/01 12:20:04 [notice] 1#1: start worker process 22
+2022/10/01 12:20:04 [notice] 1#1: start worker process 23
+2022/10/01 12:20:04 [notice] 1#1: start worker process 24
+2022/10/01 12:20:04 [notice] 1#1: start worker process 25
+2022/10/01 12:20:04 [notice] 1#1: start worker process 26
+2022/10/01 12:58:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 12:58:38 [notice] 23#23: gracefully shutting down
+2022/10/01 12:58:38 [notice] 25#25: gracefully shutting down
+2022/10/01 12:58:38 [notice] 25#25: exiting
+2022/10/01 12:58:38 [notice] 26#26: gracefully shutting down
+2022/10/01 12:58:38 [notice] 26#26: exiting
+2022/10/01 12:58:38 [notice] 22#22: gracefully shutting down
+2022/10/01 12:58:38 [notice] 24#24: gracefully shutting down
+2022/10/01 12:58:38 [notice] 23#23: exiting
+2022/10/01 12:58:38 [notice] 25#25: exit
+2022/10/01 12:58:38 [notice] 26#26: exit
+2022/10/01 12:58:38 [notice] 22#22: exiting
+2022/10/01 12:58:38 [notice] 24#24: exiting
+2022/10/01 12:58:38 [notice] 23#23: exit
+2022/10/01 12:58:38 [notice] 22#22: exit
+2022/10/01 12:58:38 [notice] 24#24: exit
+2022/10/01 12:58:38 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/01 12:58:38 [notice] 1#1: worker process 23 exited with code 0
+2022/10/01 12:58:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:58:38 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/01 12:58:38 [notice] 1#1: worker process 26 exited with code 0
+2022/10/01 12:58:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 12:58:38 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/01 12:58:38 [notice] 1#1: worker process 22 exited with code 0
+2022/10/01 12:58:38 [notice] 1#1: worker process 24 exited with code 0
+2022/10/01 12:58:38 [notice] 1#1: worker process 25 exited with code 0
+2022/10/01 12:58:38 [notice] 1#1: exit
+2022/10/01 12:58:47 [notice] 1#1: using the "epoll" event method
+2022/10/01 12:58:47 [notice] 1#1: nginx/1.23.1
+2022/10/01 12:58:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 12:58:47 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 12:58:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 12:58:47 [notice] 1#1: start worker processes
+2022/10/01 12:58:47 [notice] 1#1: start worker process 21
+2022/10/01 12:58:47 [notice] 1#1: start worker process 22
+2022/10/01 12:58:47 [notice] 1#1: start worker process 23
+2022/10/01 12:58:47 [notice] 1#1: start worker process 24
+2022/10/01 12:58:47 [notice] 1#1: start worker process 25
+2022/10/01 13:00:02 [error] 21#21: *2 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 13:02:09 [error] 24#24: *6 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 13:39:37 [notice] 21#21: signal 15 (SIGTERM) received, exiting
+2022/10/01 13:39:37 [notice] 22#22: signal 15 (SIGTERM) received, exiting
+2022/10/01 19:49:01 [notice] 1#1: using the "epoll" event method
+2022/10/01 19:49:01 [notice] 1#1: nginx/1.23.1
+2022/10/01 19:49:01 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 19:49:01 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/01 19:49:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 19:49:01 [notice] 1#1: start worker processes
+2022/10/01 19:49:01 [notice] 1#1: start worker process 22
+2022/10/01 19:49:01 [notice] 1#1: start worker process 23
+2022/10/01 19:49:01 [notice] 1#1: start worker process 24
+2022/10/01 19:49:01 [notice] 1#1: start worker process 25
+2022/10/01 19:49:01 [notice] 1#1: start worker process 26
+2022/10/01 19:49:19 [error] 22#22: *2 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/01 19:49:29 [error] 22#22: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 19:51:08 [error] 22#22: *2 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/backend.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 19:55:43 [error] 23#23: *6 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/backend.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 20:03:38 [error] 22#22: *19 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/backend.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 20:06:05 [error] 22#22: *23 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/backend.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 20:08:27 [error] 22#22: *25 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/backend.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 21:01:52 [error] 22#22: *28 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/backend.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 21:04:27 [error] 22#22: *32 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/backend.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 21:09:20 [error] 22#22: *35 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/backend.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 21:24:54 [error] 22#22: *37 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/backend.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 21:36:54 [error] 22#22: *46 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/backend.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:22:41 [error] 23#23: *85 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:24:33 [error] 23#23: *85 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:38:35 [error] 24#24: *121 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 22:38:39 [error] 24#24: *121 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:38:47 [error] 24#24: *121 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:38:57 [error] 24#24: *121 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:39:08 [error] 24#24: *121 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:39:16 [error] 24#24: *121 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:41:32 [error] 24#24: *129 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 22:48:57 [error] 24#24: *133 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 22:48:58 [error] 24#24: *133 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:56:58 [error] 24#24: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 22:56:59 [error] 24#24: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 22:57:02 [error] 24#24: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 22:57:04 [error] 24#24: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:57:07 [error] 24#24: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:57:53 [error] 24#24: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 22:57:55 [error] 24#24: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:57:56 [error] 24#24: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:58:26 [error] 24#24: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 22:58:27 [error] 24#24: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:58:29 [error] 24#24: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 22:59:37 [error] 24#24: *151 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 22:59:40 [error] 24#24: *151 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:06:13 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 23:06:15 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:06:19 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:06:34 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 23:06:35 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:06:39 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:06:48 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:07:01 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:07:34 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 23:07:36 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:07:38 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:07:42 [error] 25#25: *155 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:09:17 [error] 23#23: *170 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 23:09:21 [error] 23#23: *170 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:13:03 [error] 25#25: *174 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 23:13:05 [error] 25#25: *174 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:14:42 [error] 23#23: *177 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:15:06 [error] 23#23: *177 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:15:18 [error] 23#23: *177 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t1/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/01 23:15:21 [error] 23#23: *177 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t1/first.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l2/t1/"
+2022/10/01 23:51:46 [error] 25#25: *207 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t2/b.php HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t2/"
+2022/10/01 23:52:32 [error] 25#25: *207 open() "/var/www/mylittleserver/publiclast" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t2/c.php HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t2/"
+2022/10/02 00:21:53 [error] 26#26: *236 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t2/a.php"
+2022/10/02 00:28:27 [error] 26#26: *236 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t2/a.php"
+2022/10/02 00:28:28 [error] 26#26: *236 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t2/a.php"
+2022/10/02 00:28:29 [error] 26#26: *236 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t2/a.php"
+2022/10/02 00:28:55 [error] 26#26: *236 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t2/a.php"
+2022/10/02 00:29:01 [error] 26#26: *236 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t2/a.php"
+2022/10/02 01:12:15 [error] 22#22: *332 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/02 01:12:16 [error] 22#22: *332 directory index of "/var/www/mylittleserver/public/" is forbidden, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/02 01:14:57 [notice] 25#25: signal 15 (SIGTERM) received, exiting
+2022/10/02 10:17:21 [notice] 1#1: using the "epoll" event method
+2022/10/02 10:17:21 [notice] 1#1: nginx/1.23.1
+2022/10/02 10:17:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/02 10:17:21 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/02 10:17:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/02 10:17:21 [notice] 1#1: start worker processes
+2022/10/02 10:17:21 [notice] 1#1: start worker process 22
+2022/10/02 10:17:21 [notice] 1#1: start worker process 23
+2022/10/02 10:17:21 [notice] 1#1: start worker process 24
+2022/10/02 10:17:21 [notice] 1#1: start worker process 25
+2022/10/02 10:17:21 [notice] 1#1: start worker process 26
+2022/10/02 10:17:22 [error] 22#22: *1 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t3/"
+2022/10/02 10:20:55 [error] 24#24: *11 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t3/"
+2022/10/02 10:32:27 [error] 23#23: *31 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t3/"
+2022/10/02 13:03:51 [error] 22#22: *89 open() "/var/www/mylittleserver/public/t1" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /t1 HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/"
+2022/10/02 13:03:54 [error] 22#22: *89 open() "/var/www/mylittleserver/public/t1" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /t1 HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/"
+2022/10/02 13:04:04 [error] 22#22: *89 open() "/var/www/mylittleserver/public/t1" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /t1 HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/"
+2022/10/02 13:05:37 [error] 22#22: *89 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t1/?val=123"
+2022/10/02 14:58:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/02 14:58:23 [notice] 23#23: gracefully shutting down
+2022/10/02 14:58:23 [notice] 25#25: gracefully shutting down
+2022/10/02 14:58:23 [notice] 22#22: gracefully shutting down
+2022/10/02 14:58:23 [notice] 23#23: exiting
+2022/10/02 14:58:23 [notice] 24#24: gracefully shutting down
+2022/10/02 14:58:23 [notice] 26#26: gracefully shutting down
+2022/10/02 14:58:23 [notice] 25#25: exiting
+2022/10/02 14:58:23 [notice] 25#25: exit
+2022/10/02 14:58:23 [notice] 22#22: exiting
+2022/10/02 14:58:23 [notice] 23#23: exit
+2022/10/02 14:58:23 [notice] 24#24: exiting
+2022/10/02 14:58:23 [notice] 26#26: exiting
+2022/10/02 14:58:23 [notice] 26#26: exit
+2022/10/02 14:58:23 [notice] 22#22: exit
+2022/10/02 14:58:23 [notice] 24#24: exit
+2022/10/02 14:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/02 14:58:23 [notice] 1#1: worker process 25 exited with code 0
+2022/10/02 14:58:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/02 14:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/02 14:58:23 [notice] 1#1: worker process 23 exited with code 0
+2022/10/02 14:58:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/02 14:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/02 14:58:23 [notice] 1#1: worker process 26 exited with code 0
+2022/10/02 14:58:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/02 14:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/02 14:58:23 [notice] 1#1: worker process 24 exited with code 0
+2022/10/02 14:58:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/02 14:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/02 14:58:23 [notice] 1#1: worker process 22 exited with code 0
+2022/10/02 14:58:23 [notice] 1#1: exit
+2022/10/03 21:55:32 [notice] 1#1: using the "epoll" event method
+2022/10/03 21:55:32 [notice] 1#1: nginx/1.23.1
+2022/10/03 21:55:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/03 21:55:32 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/03 21:55:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/03 21:55:32 [notice] 1#1: start worker processes
+2022/10/03 21:55:32 [notice] 1#1: start worker process 22
+2022/10/03 21:55:32 [notice] 1#1: start worker process 23
+2022/10/03 21:55:32 [notice] 1#1: start worker process 24
+2022/10/03 21:55:32 [notice] 1#1: start worker process 25
+2022/10/03 21:55:32 [notice] 1#1: start worker process 26
+2022/10/03 21:55:33 [error] 22#22: *2 "/var/www/mylittleserver/public/crm/catalog/14/product/211/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /crm/catalog/14/product/211/ HTTP/1.1", host: "localhost", referrer: "http://localhost/crm/deal/category/0/"
+2022/10/03 21:55:33 [error] 22#22: *2 open() "/var/www/mylittleserver/public/bitrix/js/main/core/src/old/core.js" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /bitrix/js/main/core/src/old/core.js HTTP/1.1", host: "localhost"
+2022/10/03 21:55:33 [error] 22#22: *1 open() "/var/www/mylittleserver/public/bitrix/js/main/core/core_ajax.js" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /bitrix/js/main/core/core_ajax.js HTTP/1.1", host: "localhost"
+2022/10/03 21:55:34 [error] 22#22: *1 "/var/www/mylittleserver/public/crm/catalog/14/product/211/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /crm/catalog/14/product/211/ HTTP/1.1", host: "localhost", referrer: "http://localhost/crm/deal/category/0/"
+2022/10/03 21:55:37 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/03 22:01:13 [error] 23#23: *5 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/04 10:59:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/04 10:59:49 [notice] 23#23: gracefully shutting down
+2022/10/04 10:59:49 [notice] 24#24: gracefully shutting down
+2022/10/04 10:59:49 [notice] 22#22: gracefully shutting down
+2022/10/04 10:59:49 [notice] 22#22: exiting
+2022/10/04 10:59:49 [notice] 26#26: gracefully shutting down
+2022/10/04 10:59:49 [notice] 26#26: exiting
+2022/10/04 10:59:49 [notice] 25#25: gracefully shutting down
+2022/10/04 10:59:49 [notice] 23#23: exiting
+2022/10/04 10:59:49 [notice] 24#24: exiting
+2022/10/04 10:59:49 [notice] 22#22: exit
+2022/10/04 10:59:49 [notice] 26#26: exit
+2022/10/04 10:59:49 [notice] 25#25: exiting
+2022/10/04 10:59:49 [notice] 23#23: exit
+2022/10/04 10:59:49 [notice] 24#24: exit
+2022/10/04 10:59:49 [notice] 25#25: exit
+2022/10/04 10:59:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/04 10:59:49 [notice] 1#1: worker process 22 exited with code 0
+2022/10/04 10:59:49 [notice] 1#1: worker process 26 exited with code 0
+2022/10/04 10:59:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/04 10:59:49 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/04 10:59:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/04 10:59:49 [notice] 1#1: worker process 23 exited with code 0
+2022/10/04 10:59:49 [notice] 1#1: worker process 25 exited with code 0
+2022/10/04 10:59:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/04 10:59:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/04 10:59:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/04 10:59:49 [notice] 1#1: worker process 24 exited with code 0
+2022/10/04 10:59:49 [notice] 1#1: exit
+2022/10/05 18:14:29 [notice] 1#1: using the "epoll" event method
+2022/10/05 18:14:29 [notice] 1#1: nginx/1.23.1
+2022/10/05 18:14:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/05 18:14:29 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/05 18:14:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/05 18:14:29 [notice] 1#1: start worker processes
+2022/10/05 18:14:29 [notice] 1#1: start worker process 22
+2022/10/05 18:14:29 [notice] 1#1: start worker process 23
+2022/10/05 18:14:29 [notice] 1#1: start worker process 24
+2022/10/05 18:14:29 [notice] 1#1: start worker process 25
+2022/10/05 18:14:29 [notice] 1#1: start worker process 26
+2022/10/05 21:04:22 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/05 21:04:28 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/05 21:05:05 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/05 21:11:01 [error] 25#25: *7 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/05 21:11:04 [error] 25#25: *7 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/05 21:32:09 [error] 26#26: *10 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t3/getPosts.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/05 21:32:17 [error] 26#26: *10 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t3/getPosts.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/05 21:35:38 [error] 23#23: *16 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t3/getPosts.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/05 21:37:04 [error] 23#23: *16 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t3/getPosts.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/05 21:37:04 [error] 23#23: *16 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l2/t3/getPosts.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:10:18 [error] 22#22: *23 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:34:39 [error] 23#23: *25 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:36:06 [error] 23#23: *25 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:38:18 [error] 23#23: *25 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:39:12 [error] 23#23: *25 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:39:38 [error] 23#23: *25 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:39:38 [error] 23#23: *25 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:39:39 [error] 23#23: *25 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:39:39 [error] 23#23: *25 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:39:39 [error] 23#23: *25 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:39:39 [error] 23#23: *25 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t3/tst.php"
+2022/10/06 10:39:39 [error] 23#23: *25 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:39:39 [error] 23#23: *25 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t3/tst.php"
+2022/10/06 10:39:39 [error] 23#23: *25 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:39:39 [error] 23#23: *25 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l2/t3/tst.php"
+2022/10/06 10:39:58 [error] 23#23: *25 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:41:04 [error] 23#23: *25 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:46:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/06 10:46:08 [notice] 24#24: gracefully shutting down
+2022/10/06 10:46:08 [notice] 24#24: exiting
+2022/10/06 10:46:08 [notice] 25#25: gracefully shutting down
+2022/10/06 10:46:08 [notice] 26#26: gracefully shutting down
+2022/10/06 10:46:08 [notice] 23#23: gracefully shutting down
+2022/10/06 10:46:08 [notice] 22#22: gracefully shutting down
+2022/10/06 10:46:08 [notice] 24#24: exit
+2022/10/06 10:46:08 [notice] 25#25: exiting
+2022/10/06 10:46:08 [notice] 25#25: exit
+2022/10/06 10:46:08 [notice] 26#26: exiting
+2022/10/06 10:46:08 [notice] 23#23: exiting
+2022/10/06 10:46:08 [notice] 22#22: exiting
+2022/10/06 10:46:08 [notice] 26#26: exit
+2022/10/06 10:46:08 [notice] 23#23: exit
+2022/10/06 10:46:08 [notice] 22#22: exit
+2022/10/06 10:46:08 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/06 10:46:08 [notice] 1#1: worker process 24 exited with code 0
+2022/10/06 10:46:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 10:46:08 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/06 10:46:08 [notice] 1#1: worker process 25 exited with code 0
+2022/10/06 10:46:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 10:46:08 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/06 10:46:08 [notice] 1#1: worker process 22 exited with code 0
+2022/10/06 10:46:08 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 10:46:08 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/06 10:46:08 [notice] 1#1: worker process 23 exited with code 0
+2022/10/06 10:46:08 [notice] 1#1: worker process 26 exited with code 0
+2022/10/06 10:46:08 [notice] 1#1: exit
+2022/10/06 10:46:20 [notice] 1#1: using the "epoll" event method
+2022/10/06 10:46:20 [notice] 1#1: nginx/1.23.1
+2022/10/06 10:46:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/06 10:46:20 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/06 10:46:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/06 10:46:20 [notice] 1#1: start worker processes
+2022/10/06 10:46:20 [notice] 1#1: start worker process 22
+2022/10/06 10:46:20 [notice] 1#1: start worker process 23
+2022/10/06 10:46:20 [notice] 1#1: start worker process 24
+2022/10/06 10:46:20 [notice] 1#1: start worker process 25
+2022/10/06 10:46:20 [notice] 1#1: start worker process 26
+2022/10/06 10:47:27 [error] 23#23: *2 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:59:14 [error] 22#22: *4 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 10:59:53 [error] 22#22: *4 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 11:08:26 [error] 23#23: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 17:05:58 [error] 23#23: *13 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 17:07:25 [error] 23#23: *15 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/06 17:18:56 [error] 23#23: *18 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/07 08:21:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/07 08:21:30 [notice] 25#25: gracefully shutting down
+2022/10/07 08:21:30 [notice] 26#26: gracefully shutting down
+2022/10/07 08:21:30 [notice] 22#22: gracefully shutting down
+2022/10/07 08:21:30 [notice] 24#24: gracefully shutting down
+2022/10/07 08:21:30 [notice] 23#23: gracefully shutting down
+2022/10/07 08:21:30 [notice] 23#23: exiting
+2022/10/07 08:21:30 [notice] 25#25: exiting
+2022/10/07 08:21:30 [notice] 25#25: exit
+2022/10/07 08:21:30 [notice] 26#26: exiting
+2022/10/07 08:21:30 [notice] 26#26: exit
+2022/10/07 08:21:30 [notice] 22#22: exiting
+2022/10/07 08:21:30 [notice] 24#24: exiting
+2022/10/07 08:21:30 [notice] 24#24: exit
+2022/10/07 08:21:30 [notice] 23#23: exit
+2022/10/07 08:21:30 [notice] 22#22: exit
+2022/10/07 08:21:30 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/07 08:21:30 [notice] 1#1: worker process 25 exited with code 0
+2022/10/07 08:21:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 08:21:30 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/07 08:21:30 [notice] 1#1: worker process 26 exited with code 0
+2022/10/07 08:21:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 08:21:30 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/07 08:21:30 [notice] 1#1: worker process 24 exited with code 0
+2022/10/07 08:21:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 08:21:30 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/07 08:21:30 [notice] 1#1: worker process 23 exited with code 0
+2022/10/07 08:21:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/07 08:21:30 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/07 08:21:30 [notice] 1#1: worker process 22 exited with code 0
+2022/10/07 08:21:30 [notice] 1#1: exit
+2022/10/08 13:06:41 [notice] 1#1: using the "epoll" event method
+2022/10/08 13:06:41 [notice] 1#1: nginx/1.23.1
+2022/10/08 13:06:41 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/08 13:06:41 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/10/08 13:06:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/08 13:06:41 [notice] 1#1: start worker processes
+2022/10/08 13:06:41 [notice] 1#1: start worker process 22
+2022/10/08 13:06:41 [notice] 1#1: start worker process 23
+2022/10/08 13:06:41 [notice] 1#1: start worker process 24
+2022/10/08 13:06:41 [notice] 1#1: start worker process 25
+2022/10/08 13:06:41 [notice] 1#1: start worker process 26
+2022/10/08 13:06:46 [error] 22#22: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 13:06:47 [error] 22#22: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 13:06:51 [error] 22#22: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 13:54:13 [error] 23#23: *6 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 13:54:15 [error] 23#23: *6 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 13:54:15 [error] 23#23: *6 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:01:25 [error] 22#22: *55 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:02:58 [error] 22#22: *55 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:07:41 [error] 22#22: *55 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:08:51 [error] 22#22: *55 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:10:34 [error] 22#22: *55 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:14:08 [error] 23#23: *75 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:15:23 [error] 23#23: *75 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:20:06 [error] 22#22: *79 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:20:40 [error] 22#22: *79 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:20:42 [error] 22#22: *79 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:20:51 [error] 22#22: *79 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:22:22 [error] 23#23: *91 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:22:32 [error] 23#23: *91 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:24:59 [error] 23#23: *91 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:27:06 [error] 24#24: *101 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:29:37 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:29:59 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:30:00 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:30:01 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:30:01 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:30:02 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:30:02 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:30:02 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:30:03 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:30:16 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:30:39 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:30:42 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:31:12 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:31:13 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:31:25 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:31:37 [error] 23#23: *104 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:39:56 [error] 23#23: *123 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:39:57 [error] 23#23: *123 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:40:00 [error] 23#23: *123 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:40:01 [error] 23#23: *123 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:41:12 [error] 23#23: *123 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:43:01 [error] 23#23: *123 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:45:34 [error] 25#25: *134 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:48:58 [error] 25#25: *137 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:49:00 [error] 25#25: *137 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:50:24 [error] 24#24: *142 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:50:25 [error] 24#24: *142 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:50:26 [error] 24#24: *142 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:50:26 [error] 24#24: *142 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:50:26 [error] 24#24: *142 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:50:26 [error] 24#24: *142 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:50:26 [error] 24#24: *142 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:50:26 [error] 24#24: *142 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:50:27 [error] 24#24: *142 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:50:27 [error] 24#24: *142 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:51:36 [error] 24#24: *142 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 16:57:44 [error] 24#24: *155 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 17:00:17 [error] 24#24: *162 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 17:05:25 [error] 25#25: *165 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 17:13:25 [error] 25#25: *176 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 17:14:06 [error] 25#25: *176 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 17:14:09 [error] 25#25: *176 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 17:14:20 [error] 25#25: *176 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/10/08 17:14:24 [error] 25#25: *176 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/t3/tst.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
