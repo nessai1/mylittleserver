@@ -1,0 +1,79 @@
+
+[01:10:52][ALERT] [CORE ERROR]: Undefined error
+[01:10:52][ALERT] [CORE ERROR]: Undefined error
+[01:10:53][ALERT] [CORE ERROR]: Undefined error
+[01:10:53][ALERT] [CORE ERROR]: Undefined error
+[01:10:53][ALERT] [CORE ERROR]: Undefined error
+[01:10:53][ALERT] [CORE ERROR]: Undefined error
+[01:10:53][ALERT] [CORE ERROR]: Undefined error
+[01:10:53][ALERT] [CORE ERROR]: Undefined error
+[01:10:02][ALERT] [CORE ERROR]: Undefined error
+[01:10:02][ALERT] [CORE ERROR]: Undefined error
+[01:10:02][ALERT] [CORE ERROR]: Undefined error
+[01:10:35][ALERT] [CORE ERROR]: Undefined error
+[01:10:35][ALERT] [CORE ERROR]: Undefined error
+[01:10:35][ALERT] [CORE ERROR]: Undefined error
+[01:10:35][ALERT] [CORE ERROR]: Undefined error
+[01:10:47][ALERT] [CORE ERROR]: Undefined error
+[01:10:47][ALERT] [CORE ERROR]: Undefined error
+[01:10:47][ALERT] [CORE ERROR]: Undefined error
+[01:10:44][ALERT] [CORE ERROR]: Undefined error
+[01:10:44][ALERT] [CORE ERROR]: Undefined error
+[01:10:44][ALERT] [CORE ERROR]: Undefined error
+[01:10:44][ALERT] [CORE ERROR]: Undefined error
+[01:10:44][ALERT] [CORE ERROR]: Undefined error
+[01:10:07][ALERT] [FILE ERROR]: Undefined error
+[01:10:07][ALERT] [FILE ERROR]: Undefined error
+[01:10:07][ALERT] [FILE ERROR]: Undefined error
+[01:10:09][ALERT] [FILE ERROR]: Undefined error
+[01:10:09][ALERT] [FILE ERROR]: Undefined error
+[01:10:10][ALERT] [FILE ERROR]: Undefined error
+[01:10:10][ALERT] [FILE ERROR]: Undefined error
+[01:10:01][ALERT] [FILE ERROR]: Undefined error. Exception message: 
+[01:10:01][ALERT] [FILE ERROR]: Undefined error. Exception message: 
+[01:10:01][ALERT] [FILE ERROR]: Undefined error. Exception message: 
+[01:10:01][ALERT] [FILE ERROR]: Undefined error. Exception message: 
+[01:10:21][ALERT] [FILE ERROR]: Undefined error. Exception message is empty
+[01:10:21][ALERT] [FILE ERROR]: Undefined error. Exception message is empty
+[01:10:21][ALERT] [FILE ERROR]: Undefined error. Exception message is empty
+[01:10:29][ALERT] [FILE ERROR]: Undefined error. Exception message is empty
+[01:10:55][ALERT] [FILE ERROR]: Invalid JSON data
+[01:10:00][ALERT] [FILE ERROR]: Invalid JSON data
+[01:10:00][ALERT] [FILE ERROR]: Invalid JSON data
+[01:10:00][ALERT] [FILE ERROR]: Invalid JSON data
+[01:10:01][ALERT] [FILE ERROR]: Invalid JSON data
+[01:10:01][ALERT] [FILE ERROR]: Invalid JSON data
+[01:10:00][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:00][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:00][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:00][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:52][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:52][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:08][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:41][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:47][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:47][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:48][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:48][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:48][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:48][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:48][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:48][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:49][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:49][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:49][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:49][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:49][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:49][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:50][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:03][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[01:10:25][ALERT] [FILE ERROR]: Invalid JSON data for file /var/www/mylittleserver/data/posts/test/test.txt
+[12:10:34][ALERT] [SECTION ERROR]: File /var/www/mylittleserver/public/../data/posts/Квартиры/<h5>asaaa</h5>.txt was not created
+[12:10:08][ALERT] [SECTION ERROR]: File /var/www/mylittleserver/public/../data/posts/a/<h1>hss</h1>.txt was not created
+[12:10:31][ALERT] [SECTION ERROR]: File /var/www/mylittleserver/public/../data/posts/a/<h1>hss</h1>.txt was not created
+[12:10:55][ALERT] [SECTION ERROR]: File /var/www/mylittleserver/public/../data/posts/a/<h1>hss</h1>.txt was not created
+[12:10:10][ALERT] [SECTION ERROR]: File /var/www/mylittleserver/public/../data/posts/a/&lt;h1&gt;hss&lt;/h1&gt;.txt was not created
+[12:10:30][ERROR] some message
+[12:10:50][ALERT] [MODEL EXCEPTION]: Model Core\Storage\Repository\Model does not have required elements
+[12:10:19][ERROR] some message
+[12:10:38][ERROR] some message
