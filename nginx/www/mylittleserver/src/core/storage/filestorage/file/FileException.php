@@ -2,29 +2,15 @@
 
 namespace Core\Storage\FileStorage\File;
 
+use Core\CoreException;
 use JetBrains\PhpStorm\Internal\LanguageLevelTypeAware;
 
-class FileException extends \Exception
+class FileException extends CoreException
 {
-	private string $filePath;
-	private const FILE_EXCEPTION_PREFIX = "[FILE ERROR]";
+	protected static string $prefix = "[FILE ERROR]";
 
-	public function __construct(string $filePath, string $message = "")
+	public function __construct(string $message = "")
 	{
-		if ($message)
-		{
-			$message = self::FILE_EXCEPTION_PREFIX . ': ' . $message;
-		}
-		else
-		{
-			$message = self::FILE_EXCEPTION_PREFIX . ": Undefined error";
-		}
 		parent::__construct($message);
-		$this->filePath = $filePath;
-	}
-
-	public function getFilePath(): string
-	{
-		return $this->filePath;
 	}
 }

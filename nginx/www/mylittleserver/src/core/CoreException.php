@@ -16,7 +16,7 @@ class CoreException extends \Exception
 		}
 		else
 		{
-			$message = static::$prefix . ': Undefined error';
+			$message = static::$prefix . ': Undefined error. Exception message is empty';
 		}
 		parent::__construct($message);
 

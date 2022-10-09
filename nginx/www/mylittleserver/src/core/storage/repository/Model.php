@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Storage;
+namespace Core\Storage\Repository;
 
 use ReturnTypeWillChange;
 
@@ -20,10 +20,19 @@ abstract class Model implements \ArrayAccess
 	 * @param array $data
 	 * @return void
 	 */
-	final protected function save(): void
+	final public function save(): void
 	{
-		$this->repository->saveModel($this);
+		if ($this->isModelValid())
+		{
+			$this->repository->saveModel($this);
+		}
+		else
+		{
+			throw new InvalidModelStructure(self::class);
+		}
 	}
+
+	abstract protected function isModelValid(): bool;
 
 
 	public function __construct(Repository $repository)
@@ -45,6 +54,18 @@ abstract class Model implements \ArrayAccess
 	public function getId(): string
 	{
 		return $this->modelData['ID'];
+	}
+
+	public function hasField(string ...$fields)
+	{
+		foreach ($fields as $field)
+		{
+			if (!isset($this->modelData[$field]))
+			{
+				return false;
+			}
+		}
+		return true;
 	}
 
 

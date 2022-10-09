@@ -4,7 +4,7 @@ namespace Core\Storage\FileStorage\File;
 
 class File
 {
-	private \SplFileInfo $file;
+	protected \SplFileInfo $file;
 	protected mixed $fileData;
 
 	public function getFileData(): string
@@ -37,12 +37,12 @@ class File
 		}
 	}
 
-	final protected function save(): void
+	final public function save(): void
 	{
 		file_put_contents($this->file->getRealPath(), $this->getFileData());
 	}
 
-	final protected function read(): string
+	final public function read(): string
 	{
 		return file_get_contents($this->file->getRealPath());
 	}

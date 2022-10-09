@@ -125,7 +125,7 @@ class Section
 			throw new SectionException("File {$filePath} was not created");
 		}
 
-		return new $this->classContext(new DirectoryIterator($filePath));
+		return new $this->classContext(new \SplFileInfo($filePath));
 	}
 
 	public function getFile($filename)

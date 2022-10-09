@@ -2,14 +2,13 @@
 
 namespace Ovito\Posts;
 
-use Core\Storage\Model;
+use Core\Storage\Repository\Model;
 use Core\Storage\Repository;
 
 class PostModel extends Model
 {
-	public function setData(array $modelData): self
+	protected function isModelValid(): bool
 	{
-
-		return parent::setData($modelData);
+		return $this->hasField('title', 'text', 'category', 'email');
 	}
 }

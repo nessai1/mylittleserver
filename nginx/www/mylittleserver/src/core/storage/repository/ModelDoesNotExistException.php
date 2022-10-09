@@ -1,10 +1,11 @@
 <?php
 
-namespace Core\Storage;
+namespace Core\Storage\Repository;
 
+use Core\CoreException;
 use Exception;
 
-class ModelDoesNotExistException extends Exception
+class ModelDoesNotExistException extends ModelException
 {
 	private string $classname;
 
