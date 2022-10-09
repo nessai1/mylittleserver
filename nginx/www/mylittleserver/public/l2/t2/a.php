@@ -17,7 +17,11 @@
 <?php
 if (isset($_POST['text']) && is_string($_POST['text']))
 {
-	echo "Результат: " . mb_strlen($_POST['text']);
+	echo "Введеное слово: " . $_POST['text'];
+	echo "<br>";
+	echo "Количество буковок: " . mb_strlen($_POST['text']);
+	echo "<br>";
+	echo "Количество слов: " . str_word_count($_POST['text'], 0);
 }
 ?>
 </body>
