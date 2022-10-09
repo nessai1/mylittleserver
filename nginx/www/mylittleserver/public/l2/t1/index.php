@@ -30,12 +30,7 @@
 			<input name="val" id="two_inp" type="text" class="p-2 rounded-lg border-solid border-2 border-slate-500" placeholder="вводи давай" />
 			<button type="submit" class="ml-3 bg-blue-600 text-white py-2 px-4 rounded-lg active:bg-blue-800">обработать</button>
 		</form>
-		<div id="results" class="mt-4">
-			<div class="p-5 rounded-md border-2 border-black-100 w-1/4">
-				<span class="font-bold"> Ввод: </span><span>123123</span>
-				<br>
-				<span class="font-bold"> Результат: </span><span>123123</span>
-			</div>
+		<div id="second_results" class="mt-4">
 		</div>
 	</div>
 
@@ -73,7 +68,20 @@
 
 	function addSecond(result)
 	{
+		const oldResult = document.querySelector('#second_results').innerHTML;
 
+		document.querySelector('#second_results').innerHTML =
+			`
+				<div class="p-5 rounded-md border-2 border-black-100 w-1/4">
+					<span class="font-bold"> Ввод: </span>
+					<span class="break-all">${result.input}</span>
+					<br>
+					<span class="font-bold py-3">Результат: </span>
+					<span class="break-all">${result.result}</span>
+				</div>
+			`
+			+ oldResult
+		;
 	}
 
 
@@ -108,7 +116,7 @@
 		if (reg)
 		{
 			document.querySelector('#one_inp').value = '';
-			fetch('/l2/t1/two.php', {
+			fetch('/l2/t1/second.php', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
