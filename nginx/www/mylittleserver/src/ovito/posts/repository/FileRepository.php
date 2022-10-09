@@ -17,7 +17,7 @@ class FileRepository extends \Core\Storage\Repository\FileRepository
 
 	protected static function fetchModelName(Model $model): string
 	{
-		return $model->getData()['title'] . '.txt';
+		return md5($model->getData()['title']) . '.txt';
 	}
 
 	public static function getStorageId(): string
