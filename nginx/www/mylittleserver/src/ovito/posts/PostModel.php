@@ -11,4 +11,24 @@ class PostModel extends Model
 	{
 		return $this->hasField('title', 'text', 'category', 'email');
 	}
+
+	public function getCleanTitle(): string
+	{
+		return static::formatString($this->modelData['title'] ?? '');
+	}
+
+	public function getCleanText(): string
+	{
+		return static::formatString($this->modelData['text'] ?? '');
+	}
+
+	public function getCleanCategory(): string
+	{
+		return static::formatString($this->modelData['category'] ?? '');
+	}
+
+	public function getCleanEmail(): string
+	{
+		return static::formatString($this->modelData['email'] ?? '');
+	}
 }

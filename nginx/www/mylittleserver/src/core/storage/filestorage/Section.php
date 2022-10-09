@@ -28,6 +28,11 @@ class Section
 		$this->classContext = $classContext;
 	}
 
+	public function getName(): string
+	{
+		return $this->directoryIterator->getFilename();
+	}
+
 	/**
 	 * @throws SectionException
 	 */
@@ -136,5 +141,24 @@ class Section
 		}
 
 		throw new SectionException("File {$filename} does not exists");
+	}
+
+	/**
+	 * Get all files that contain in current section
+	 * @return array
+	 */
+	public function getFiles(): array
+	{
+		$fileList = [];
+		/** @var DirectoryIterator $sectionEl */
+		foreach ($this->directoryIterator as $sectionEl)
+		{
+			if ($sectionEl->isFile())
+			{
+				$fileList[$sectionEl->getFilename()] = new $this->classContext(new \SplFileInfo($sectionEl->getPath() . DIRECTORY_SEPARATOR . $sectionEl->getFilename()));
+			}
+		}
+
+		return $fileList;
 	}
 }

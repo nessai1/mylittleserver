@@ -17,8 +17,8 @@ abstract class Model implements \ArrayAccess
 
 	/**
 	 * Save data of model in way described child class
-	 * @param array $data
 	 * @return void
+	 * @throws InvalidModelStructure
 	 */
 	final public function save(): void
 	{
@@ -93,5 +93,10 @@ abstract class Model implements \ArrayAccess
 	#[ReturnTypeWillChange]
 	public function offsetGet($offset) {
 		return $this->modelData[$offset] ?? null;
+	}
+
+	public static function formatString(string $string): string
+	{
+		return trim(htmlspecialchars($string));
 	}
 }
