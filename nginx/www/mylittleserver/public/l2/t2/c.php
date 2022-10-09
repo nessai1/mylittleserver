@@ -1,12 +1,13 @@
 <?php
 session_start();
 
-if (isset($_POST['firstname'], $_POST['secondname'], $_POST['age'], $_POST['something']) && is_numeric($_POST['age']))
+if (isset($_POST['firstname'], $_POST['secondname'], $_POST['age'], $_POST['something'], $_POST['money']) && is_numeric($_POST['age']) && is_numeric($_POST['money']))
 {
 	$_SESSION['C_USER'] = [
 		'FIRSTNAME' => $_POST['firstname'],
 		'SECONDNAME' => $_POST['secondname'],
 		'AGE' => $_POST['age'],
+		'MONEY' => $_POST['money'],
 		'SOMETHING' => $_POST['something'],
 	];
 	$saved = true;
@@ -38,6 +39,7 @@ else
 	<input name="firstname" placeholder="Имя" class="block p-3 rounded-lg border-2 border-slate-500 mb-3" />
 	<input name="secondname" placeholder="Фамилия" class="block p-3 rounded-lg border-2 border-slate-500 mb-3" />
 	<input name="age" placeholder="Возраст" class="block p-3 rounded-lg border-2 border-slate-500 mb-3" />
+	<input name="money" placeholder="Сколько. Ты. Зарабатываешь?" class="block p-3 rounded-lg border-2 border-slate-500 mb-3" />
 	<input name="something" placeholder="Что-нибудь еще" class="block p-3 rounded-lg border-2 border-slate-500 mb-3" />
 	<button class="rounded-lg bg-sky-600 text-white p-2 active:bg-sky-700">Сохранить данные</button>
 </form>
