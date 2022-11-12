@@ -80,10 +80,11 @@
 
 		const formData = new FormData(form);
 		const data = Object.fromEntries(formData.entries());
+		data.action = 'createPost';
 		form.querySelectorAll('input, textarea').forEach((input) => {
 			input.value = '';
 		});
-		fetch('{{$dashboardHandler}}', {
+		fetch('{{$responseHandlerPath}}', {
 			method: 'POST',
 			body: JSON.stringify(data),
 			headers: {

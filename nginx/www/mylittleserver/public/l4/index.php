@@ -1,8 +1,7 @@
 <?php
-
-use Ovito\Posts\PostModel;
-use Ovito\Posts\Repository\FileRepository;
 require_once '../../src/autoload.php';
 
+use Ovito\Posts\Repository\FileRepository;
 
-echo (new \Ovito\Views\DashboardView(new FileRepository()))->render();
+
+(new \Ovito\Pages\OvitoDashboard(new FileRepository()))->run();

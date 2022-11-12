@@ -4,7 +4,7 @@ namespace Core\View;
 
 use Core\View\Reader\ViewReader;
 
-class View
+class View implements ViewInterface
 {
 	private string $componentName;
 	private array $context;
