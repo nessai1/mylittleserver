@@ -6,13 +6,17 @@ use Core\View\Reader\ViewReader;
 
 class View
 {
-	public function __construct($componentName)
+	private string $componentName;
+	private array $context;
+
+	public function __construct($componentName, array $context = [])
 	{
 		$this->componentName = $componentName;
+		$this->context = $context;
 	}
 
-	public function getContent()
+	public function getContent(): string
 	{
-		return (new ViewReader($this->componentName))->render();
+		return (new ViewReader($this->componentName, $this->context))->render();
 	}
 }

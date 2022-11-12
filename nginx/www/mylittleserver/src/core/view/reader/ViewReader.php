@@ -5,10 +5,12 @@ namespace Core\View\Reader;
 final class ViewReader
 {
 	private string $componentName;
+	private array $context;
 
-	public function __construct(string $componentName)
+	public function __construct(string $componentName, array $context = [])
 	{
 		$this->componentName = $componentName;
+		$this->context = $context;
 	}
 
 	public function render(): string
@@ -16,7 +18,7 @@ final class ViewReader
 		$path = $this->getComponentPath();
 		$content = self::readComponent($path);
 
-		return (new ViewParser($content))->getParsedView();
+		return (new ViewParser($content, $this->context))->getParsedView();
 	}
 
 	public function setComponentName(string $componentName): void
@@ -29,12 +31,12 @@ final class ViewReader
 		return $this->componentName;
 	}
 
-	protected function getComponentPath(): string
+	private function getComponentPath(): string
 	{
 		$path = self::buildComponentPath($this->componentName);
 		if (!file_exists($path))
 		{
-			throw new \Core\CoreException('Component not found');
+			throw new \Core\CoreException("Component {$this->componentName} not found");
 		}
 
 		return $path;
