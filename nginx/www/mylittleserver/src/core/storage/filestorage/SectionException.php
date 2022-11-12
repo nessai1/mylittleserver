@@ -6,7 +6,7 @@ use Core\CoreException;
 
 class SectionException extends CoreException
 {
-	protected static string $prefix = '[SECTION ERROR]';
+	protected static string $prefix = '[SECTION EXCEPTION]';
 
 	public function __construct(string $message = "")
 	{

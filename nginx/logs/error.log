@@ -2862,3 +2862,5 @@
 2022/11/12 17:40:21 [error] 26#26: *176 open() "/var/www/mylittleserver/public/l3" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l3 HTTP/1.1", host: "localhost"
 2022/11/12 17:40:37 [error] 26#26: *176 open() "/var/www/mylittleserver/public/l3" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l3 HTTP/1.1", host: "localhost"
 2022/11/12 17:41:38 [error] 26#26: *176 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l4/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/11/12 19:16:29 [error] 26#26: *202 "/var/www/mylittleserver/public/l3/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l3/ HTTP/1.1", host: "localhost"
+2022/11/12 19:16:32 [error] 26#26: *202 open() "/var/www/mylittleserver/public/l3" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l3 HTTP/1.1", host: "localhost"

@@ -4,9 +4,9 @@ namespace Core;
 
 use Core\Log\LoggerAware;
 
-class CoreException extends \Exception
+class CoreError extends \Error
 {
-	protected static string $prefix = "[CORE EXCEPTION]";
+	protected static string $prefix = "[CORE ERROR]";
 
 	public function __construct(string $message = "")
 	{
@@ -16,10 +16,10 @@ class CoreException extends \Exception
 		}
 		else
 		{
-			$message = static::$prefix . ': Undefined exception. Exception message is empty';
+			$message = static::$prefix . ': Undefined error. Exception message is empty';
 		}
 		parent::__construct($message);
 
-		LoggerAware::getLogger()->alert($message);
+		LoggerAware::getLogger()->critical($message);
 	}
 }

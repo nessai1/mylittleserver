@@ -6,7 +6,7 @@ use Core\CoreException;
 
 class StorageException extends CoreException
 {
-	protected static string $prefix = '[STORAGE ERROR]';
+	protected static string $prefix = '[STORAGE EXCEPTION]';
 
 	public function __construct(string $message = "")
 	{

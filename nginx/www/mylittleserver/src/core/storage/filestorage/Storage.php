@@ -12,17 +12,6 @@ final class Storage extends Section
 	private string $storageId;
 
 	protected string $classContext = \Core\Storage\FileStorage\File\File::class;
-	private static Logger $logger;
-
-	private static function getLogger()
-	{
-		if (!isset(self::$logger))
-		{
-			self::$logger = LoggerAware::getLogger();
-		}
-
-		return self::$logger;
-	}
 
 	/**
 	 * @throws StorageException
