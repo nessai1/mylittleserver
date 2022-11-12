@@ -36,8 +36,17 @@ class ViewParser
 
 	private function parseForeaches(): void
 	{
-		$pattern = '/@foreach\s*\(\s*\$\w+\s+as\s+\$\w+\s*\).*@endforeach/';
-		$this->content = preg_replace_callback($pattern, function ($matches) {
+		$pattern = '/@foreach\s*\(\s*\$\w+\s+as\s+\$\w+\s*\).*@endforeach/s';
+		$context = $this->context;
+		$this->content = preg_replace_callback($pattern, function ($matches) use ($context) {
+			$foreachVars = [];
+			preg_match_all('/@foreach\s*\(\s*\$(\w+)\s+as\s+\$(\w+)\s*\)/', $matches[0], $foreachVars);
+			preg_match_all('/@foreach\s*\(\s*\$\w+\s+as\s+\$\w+\s*\)(.*)@endforeach/s', $matches[0], $innerContent);
+
+			$innerContent = $innerContent[1][0];
+			$foreachAccumulator = $foreachVars[1][0];
+			$iteratorPattern = $foreachVars[2][0];
+
 			return $foreachContent;
 		}, $this->content);
 	}
