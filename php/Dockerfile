@@ -1,7 +1,7 @@
 FROM php:8.1-fpm
 
 RUN apt-get update && apt-get install -y curl && \
-    docker-php-ext-install mysqli  && \
+    docker-php-ext-install mysqli pdo pdo_mysql  && \
     pecl install xdebug && \
     docker-php-ext-enable xdebug
 
