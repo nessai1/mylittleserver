@@ -61,7 +61,7 @@ final class Application
 
 	public function getOption(string $option): string|null
 	{
-		$result = $this->database->query("SELECT `value` FROM `options` WHERE `option` = :option", [
+		$result = $this->database->query("SELECT `value` FROM `options` WHERE `name` = :option", [
 			':option' => $option
 		]);
 
@@ -74,7 +74,7 @@ final class Application
 
 	public function setOption(string $option, string $value): void
 	{
-		$this->database->execute("INSERT INTO `options` (`option`, `value`) VALUES (:option, :value) ON DUPLICATE KEY UPDATE `value` = :value", [
+		$this->database->execute("INSERT INTO `options` (`name`, `value`) VALUES (:option, :value) ON DUPLICATE KEY UPDATE `value` = :value", [
 			':option' => $option,
 			':value' => $value
 		]);

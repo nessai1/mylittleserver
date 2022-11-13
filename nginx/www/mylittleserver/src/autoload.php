@@ -10,17 +10,3 @@ if (!$applicationInit)
 	$applicationInit = true;
 	\Core\Application::initApplication();
 }
-
-static $applicationUpdated = false;
-
-if (!$configLoaded)
-{
-	$configLoaded = true;
-	require_once __DIR__ . '/config.php';
-}
-
-if (!$applicationUpdated)
-{
-	$applicationUpdated = true;
-	require_once __DIR__ . '/updater.php';
-}
