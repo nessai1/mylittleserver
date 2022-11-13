@@ -11,6 +11,10 @@ class Database
 		$this->pdo = $pdo;
 	}
 
+	/**
+	 * Return database instance
+	 * @throws DatabaseError
+	 */
 	public static function getDatabase(): Database
 	{
 		if (static::$database !== null) {
@@ -35,17 +39,38 @@ class Database
 		return static::$database;
 	}
 
+	/**
+	 * Execute query and return list of rows
+	 * @param string $query
+	 * @param array $params
+	 * @return array
+	 * @throws DatabaseException
+	 */
 	public function query(string $query, array $params = []): array
 	{
-		$statement = $this->pdo->prepare($query);
-		$statement->execute($params);
-
-		return $statement->fetchAll(\PDO::FETCH_ASSOC);
+		try {
+			$statement = $this->pdo->prepare($query);
+			$statement->execute($params);
+			return $statement->fetchAll(\PDO::FETCH_ASSOC);
+		} catch (\PDOException $e) {
+			throw new DatabaseException("PDOException appear while query: {$e->getMessage()}");
+		}
 	}
 
+	/**
+	 * Execute query without return
+	 * @param string $query
+	 * @param array $params
+	 * @return void
+	 * @throws DatabaseException
+	 */
 	public function execute(string $query, array $params = []): void
 	{
-		$statement = $this->pdo->prepare($query);
-		$statement->execute($params);
+		try {
+			$statement = $this->pdo->prepare($query);
+			$statement->execute($params);
+		} catch (\PDOException $e) {
+			throw new DatabaseException("PDOException appear while execute: {$e->getMessage()}");
+		}
 	}
 }
