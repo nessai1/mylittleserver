@@ -2,11 +2,9 @@
 
 require_once __DIR__ . '/autoload.php';
 
-echo "loaded";
-
-$_ENV['DATABASE'] = [
+$_ENV['database'] = [
 	'host' => 'mysql',
-	'user' => 'root',
-	'password' => '',
-	'database' => 'ovito',
+	'username' => 'mylittleuser',
+	'password' => 'mylittlepassword',
+	'database' => 'mylittleserver',
 ];

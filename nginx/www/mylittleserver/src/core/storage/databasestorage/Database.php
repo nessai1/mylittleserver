@@ -4,7 +4,7 @@ namespace Core\Storage\DatabaseStorage;
 
 class Database
 {
-	private static Database|null $database;
+	private static Database|null $database = null;
 
 	protected function __construct(\PDO $pdo)
 	{
@@ -17,7 +17,7 @@ class Database
 			return static::$database;
 		}
 
-		$config = $_ENV['database'];
+		$config = \Core\Config::getConfig()->get('database');
 		if (!$config)
 		{
 			throw new DatabaseError('Database configuration not found');

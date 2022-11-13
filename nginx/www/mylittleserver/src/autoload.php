@@ -4,7 +4,13 @@ spl_autoload_register(static function ($namespace) {
 	require_once $_SERVER['DOCUMENT_ROOT'] . "/../src/{$namespace}.php";
 });
 
-static $configLoaded = false;
+static $applicationInit = false;
+if (!$applicationInit)
+{
+	$applicationInit = true;
+	\Core\Application::initApplication();
+}
+
 static $applicationUpdated = false;
 
 if (!$configLoaded)
