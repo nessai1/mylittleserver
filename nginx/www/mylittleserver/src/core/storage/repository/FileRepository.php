@@ -5,7 +5,7 @@ namespace Core\Storage\Repository;
 use Core\Storage\FileStorage\File\JSONFile;
 use Core\Storage\FileStorage\Storage;
 
-abstract class FileRepository extends Repository
+abstract class FileRepository implements Repository
 {
 	protected Storage $storage;
 

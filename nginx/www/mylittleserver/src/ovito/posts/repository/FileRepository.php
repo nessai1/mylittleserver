@@ -6,7 +6,7 @@ use Core\Storage\FileStorage\SectionException;
 use Core\Storage\Repository\Model;
 use Ovito\Posts\PostModel;
 
-class FileRepository extends \Core\Storage\Repository\FileRepository
+class FileRepository extends \Core\Storage\Repository\FileRepository implements PostsRepository
 {
 	protected array $models;
 

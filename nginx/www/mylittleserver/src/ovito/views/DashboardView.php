@@ -5,13 +5,14 @@ namespace Ovito\Views;
 use Core\Storage\Repository\Repository;
 use Core\View\View;
 use Core\View\ViewInterface;
+use Ovito\Posts\Repository\PostsRepository;
 
 class DashboardView implements ViewInterface
 {
 	private Repository $repository;
 	private string $responseHandlerPath;
 
-	public function __construct(Repository $repository, string $responseHandlerPath = '.')
+	public function __construct(PostsRepository $repository, string $responseHandlerPath = '.')
 	{
 		$this->repository = $repository;
 		$this->responseHandlerPath = $responseHandlerPath;

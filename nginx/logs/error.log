@@ -2903,3 +2903,51 @@
 2022/11/13 14:25:54 [notice] 1#1: start worker process 24
 2022/11/13 14:25:54 [notice] 1#1: start worker process 25
 2022/11/13 14:25:54 [notice] 1#1: start worker process 26
+2022/11/13 21:35:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/13 21:35:04 [notice] 23#23: gracefully shutting down
+2022/11/13 21:35:04 [notice] 25#25: gracefully shutting down
+2022/11/13 21:35:04 [notice] 26#26: gracefully shutting down
+2022/11/13 21:35:04 [notice] 22#22: gracefully shutting down
+2022/11/13 21:35:04 [notice] 24#24: gracefully shutting down
+2022/11/13 21:35:04 [notice] 23#23: exiting
+2022/11/13 21:35:04 [notice] 25#25: exiting
+2022/11/13 21:35:04 [notice] 26#26: exiting
+2022/11/13 21:35:04 [notice] 22#22: exiting
+2022/11/13 21:35:04 [notice] 22#22: exit
+2022/11/13 21:35:04 [notice] 24#24: exiting
+2022/11/13 21:35:04 [notice] 23#23: exit
+2022/11/13 21:35:04 [notice] 25#25: exit
+2022/11/13 21:35:04 [notice] 26#26: exit
+2022/11/13 21:35:04 [notice] 24#24: exit
+2022/11/13 21:35:04 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/13 21:35:04 [notice] 1#1: worker process 25 exited with code 0
+2022/11/13 21:35:04 [notice] 1#1: worker process 26 exited with code 0
+2022/11/13 21:35:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/13 21:35:04 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/11/13 21:35:04 [notice] 1#1: worker process 24 exited with code 0
+2022/11/13 21:35:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/13 21:35:04 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/11/13 21:35:04 [notice] 1#1: worker process 22 exited with code 0
+2022/11/13 21:35:04 [notice] 1#1: worker process 23 exited with code 0
+2022/11/13 21:35:04 [notice] 1#1: exit
+2022/12/09 20:41:05 [notice] 1#1: using the "epoll" event method
+2022/12/09 20:41:05 [notice] 1#1: nginx/1.23.1
+2022/12/09 20:41:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/09 20:41:05 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/09 20:41:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/09 20:41:05 [notice] 1#1: start worker processes
+2022/12/09 20:41:05 [notice] 1#1: start worker process 22
+2022/12/09 20:41:05 [notice] 1#1: start worker process 23
+2022/12/09 20:41:05 [notice] 1#1: start worker process 24
+2022/12/09 20:41:05 [notice] 1#1: start worker process 25
+2022/12/09 20:41:05 [notice] 1#1: start worker process 26
+2022/12/09 20:41:06 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l2/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/12/09 20:41:48 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.0.1:9000 (from REMOTE_ADDR HTTP header), host.docker.internal:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l4/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/12/09 20:43:19 [error] 22#22: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l4/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/12/09 20:57:33 [error] 23#23: *31 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l4/"
+2022/12/09 20:59:47 [error] 23#23: *31 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l4/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l4/"
+2022/12/09 21:06:25 [error] 22#22: *54 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: mylittleserver.dev, request: "POST /l4/ HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/l4/"
+2022/12/09 21:08:20 [error] 22#22: *54 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l4/"
+2022/12/09 21:08:55 [error] 22#22: *68 open() "/var/www/mylittleserver/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/l4/"
+2022/12/09 21:09:59 [error] 22#22: *68 "/var/www/mylittleserver/public/l3/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l3/ HTTP/1.1", host: "localhost"
+2022/12/09 21:10:02 [error] 22#22: *68 open() "/var/www/mylittleserver/public/l3/r3" failed (2: No such file or directory), client: 172.18.0.1, server: mylittleserver.dev, request: "GET /l3/r3 HTTP/1.1", host: "localhost"
