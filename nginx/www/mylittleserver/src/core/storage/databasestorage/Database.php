@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Storage\DatabaseStorage;
+namespace WebLab\Core\Storage\DatabaseStorage;
 
 class Database
 {
@@ -21,7 +21,7 @@ class Database
 			return static::$database;
 		}
 
-		$config = \Core\Config::getConfig()->get('database');
+		$config = \WebLab\Core\Config::getConfig()->get('database');
 		if (!$config)
 		{
 			throw new DatabaseError('Database configuration not found');

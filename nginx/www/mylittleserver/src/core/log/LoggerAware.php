@@ -1,9 +1,9 @@
 <?php
 
-namespace Core\Log;
+namespace WebLab\Core\Log;
 
-use Psr\Log\LoggerAwareInterface;
-use Psr\Log\LoggerInterface;
+use \WebLab\Psr\Log\LoggerAwareInterface;
+use \WebLab\Psr\Log\LoggerInterface;
 
 final class LoggerAware implements LoggerAwareInterface
 {

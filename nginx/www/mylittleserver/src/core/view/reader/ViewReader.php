@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\View\Reader;
+namespace WebLab\Core\View\Reader;
 
 final class ViewReader
 {

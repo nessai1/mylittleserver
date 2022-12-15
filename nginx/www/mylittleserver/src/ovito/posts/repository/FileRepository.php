@@ -1,12 +1,12 @@
 <?php
 
-namespace Ovito\Posts\Repository;
+namespace WebLab\Ovito\Posts\Repository;
 
-use Core\Storage\FileStorage\SectionException;
-use Core\Storage\Repository\Model;
-use Ovito\Posts\PostModel;
+use WebLab\Core\Storage\FileStorage\SectionException;
+use WebLab\Core\Storage\Repository\Model;
+use WebLab\Ovito\Posts\PostModel;
 
-class FileRepository extends \Core\Storage\Repository\FileRepository implements PostsRepository
+class FileRepository extends \WebLab\Core\Storage\Repository\FileRepository implements PostsRepository
 {
 	protected array $models;
 

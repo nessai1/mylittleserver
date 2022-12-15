@@ -1,11 +1,11 @@
 <?php
 
-namespace Ovito\Views;
+namespace WebLab\Ovito\Views;
 
-use Core\Storage\Repository\Repository;
-use Core\View\View;
-use Core\View\ViewInterface;
-use Ovito\Posts\Repository\PostsRepository;
+use WebLab\Core\Storage\Repository\Repository;
+use WebLab\Core\View\View;
+use WebLab\Core\View\ViewInterface;
+use WebLab\Ovito\Posts\Repository\PostsRepository;
 
 class DashboardView implements ViewInterface
 {

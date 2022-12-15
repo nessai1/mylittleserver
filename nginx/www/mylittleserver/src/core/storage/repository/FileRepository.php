@@ -1,9 +1,9 @@
 <?php
 
-namespace Core\Storage\Repository;
+namespace WebLab\Core\Storage\Repository;
 
-use Core\Storage\FileStorage\File\JSONFile;
-use Core\Storage\FileStorage\Storage;
+use WebLab\Core\Storage\FileStorage\File\JSONFile;
+use WebLab\Core\Storage\FileStorage\Storage;
 
 abstract class FileRepository implements Repository
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ovito\Posts;
+namespace WebLab\Ovito\Posts;
 
-use Core\Storage\Repository\Model;
-use Core\Storage\Repository;
+use WebLab\Core\Storage\Repository\Model;
+use WebLab\Core\Storage\Repository;
 
 class PostModel extends Model
 {

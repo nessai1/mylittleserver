@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\View\Reader;
+namespace WebLab\Core\View\Reader;
 
-use Core\CoreException;
+use WebLab\Core\CoreException;
 
 class ViewParser
 {

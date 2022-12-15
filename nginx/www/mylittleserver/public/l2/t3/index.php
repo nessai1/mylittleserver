@@ -2,7 +2,7 @@
 
 require_once '../../../src/autoload.php';
 
-use Ovito\Posts\Repository\FileRepository;
+use \WebLab\Ovito\Posts\Repository\FileRepository;
 
 
-(new \Ovito\Pages\OvitoDashboard(new FileRepository()))->run();
+(new \WebLab\Ovito\Pages\OvitoDashboard(new FileRepository()))->run();

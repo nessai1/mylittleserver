@@ -1,8 +1,8 @@
 <?php
 
-namespace Core;
+namespace WebLab\Core;
 
-class ApplicationError extends \Core\CoreError
+class ApplicationError extends \WebLab\Core\CoreError
 {
 	protected static string $prefix = '[APPLICATION ERROR]';
 

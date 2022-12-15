@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\Log;
+namespace WebLab\Psr\Log;
 
 /**
  * Describes a logger-aware instance.

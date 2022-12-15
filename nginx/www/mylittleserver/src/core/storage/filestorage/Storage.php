@@ -1,9 +1,9 @@
 <?php
 
-namespace Core\Storage\FileStorage;
+namespace WebLab\Core\Storage\FileStorage;
 
-use Core\Log\Logger;
-use Core\Log\LoggerAware;
+use WebLab\Core\Log\Logger;
+use WebLab\Core\Log\LoggerAware;
 use DirectoryIterator;
 use SplFileInfo;
 

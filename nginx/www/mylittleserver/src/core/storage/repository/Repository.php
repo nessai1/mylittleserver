@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Storage\Repository;
+namespace WebLab\Core\Storage\Repository;
 
 interface Repository
 {

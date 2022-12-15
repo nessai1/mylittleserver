@@ -1,11 +1,11 @@
 <?php
 
-namespace Ovito\Posts\Repository;
+namespace WebLab\Ovito\Posts\Repository;
 
-use Core\Storage\DatabaseStorage\Database;
-use Core\Storage\FileStorage\SectionException;
-use Core\Storage\Repository\Model;
-use Ovito\Posts\PostModel;
+use WebLab\Core\Storage\DatabaseStorage\Database;
+use WebLab\Core\Storage\FileStorage\SectionException;
+use WebLab\Core\Storage\Repository\Model;
+use WebLab\Ovito\Posts\PostModel;
 
 class DatabaseRepository implements PostsRepository
 {

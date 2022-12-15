@@ -1,12 +1,12 @@
 <?php
 
-namespace Ovito\Pages;
+namespace WebLab\Ovito\Pages;
 
-use Core\Page\Page;
-use Core\Page\SinglePageApplication;
-use Core\Storage\Repository\Repository;
-use Ovito\Rest\DashboardHandler;
-use Ovito\Views\DashboardView;
+use WebLab\Core\Page\Page;
+use WebLab\Core\Page\SinglePageApplication;
+use WebLab\Core\Storage\Repository\Repository;
+use WebLab\Ovito\Rest\DashboardHandler;
+use WebLab\Ovito\Views\DashboardView;
 
 final class OvitoDashboard implements Page
 {

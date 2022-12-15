@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\View;
+namespace WebLab\Core\View;
 
 interface ViewInterface
 {

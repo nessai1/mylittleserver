@@ -1,13 +1,13 @@
 <?php
 
-namespace Ovito\Rest;
+namespace WebLab\Ovito\Rest;
 
-use Core\Rest\Handler\RestHandler;
-use Core\Rest\Response\Response;
-use Core\Rest\Response\ResponseType;
-use Core\Storage\Repository\InvalidModelStructure;
-use Core\Storage\Repository\Repository;
-use Ovito\Posts\PostModel;
+use WebLab\Core\Rest\Handler\RestHandler;
+use WebLab\Core\Rest\Response\Response;
+use WebLab\Core\Rest\Response\ResponseType;
+use WebLab\Core\Storage\Repository\InvalidModelStructure;
+use WebLab\Core\Storage\Repository\Repository;
+use WebLab\Ovito\Posts\PostModel;
 
 class DashboardHandler extends RestHandler
 {

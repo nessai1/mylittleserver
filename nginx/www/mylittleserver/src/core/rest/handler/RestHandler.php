@@ -1,9 +1,9 @@
 <?php
 
-namespace Core\Rest\Handler;
+namespace WebLab\Core\Rest\Handler;
 
-use Core\Rest\Response\Response;
-use Core\Rest\Response\ResponseType;
+use WebLab\Core\Rest\Response\Response;
+use WebLab\Core\Rest\Response\ResponseType;
 use JsonException;
 
 abstract class RestHandler

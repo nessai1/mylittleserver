@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\Storage\Repository;
+namespace WebLab\Core\Storage\Repository;
 
-use Core\CoreException;
+use WebLab\Core\CoreException;
 use Exception;
 
 class ModelDoesNotExistException extends ModelException

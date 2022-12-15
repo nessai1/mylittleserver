@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\Storage\DatabaseStorage;
+namespace WebLab\Core\Storage\DatabaseStorage;
 
-class DatabaseError extends \Core\CoreError
+class DatabaseError extends \WebLab\Core\CoreError
 {
 	protected static string $prefix = '[DATABASE ERROR]';
 

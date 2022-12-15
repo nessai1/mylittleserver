@@ -1,10 +1,10 @@
 <?php
 
-namespace Core\Page;
+namespace WebLab\Core\Page;
 
-use Core\Rest\Handler\RestHandler;
-use Core\View\View;
-use Core\View\ViewInterface;
+use WebLab\Core\Rest\Handler\RestHandler;
+use WebLab\Core\View\View;
+use WebLab\Core\View\ViewInterface;
 
 /**
  * Class SinglePageApplication is a page that renders a view for get requests and handles rest requests on the same page

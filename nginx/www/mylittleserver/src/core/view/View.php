@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\View;
+namespace WebLab\Core\View;
 
-use Core\View\Reader\ViewReader;
+use WebLab\Core\View\Reader\ViewReader;
 
 class View implements ViewInterface
 {

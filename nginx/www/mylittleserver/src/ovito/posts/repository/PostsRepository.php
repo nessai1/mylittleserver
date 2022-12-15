@@ -1,8 +1,8 @@
 <?php
 
-namespace Ovito\Posts\Repository;
+namespace WebLab\Ovito\Posts\Repository;
 
-interface PostsRepository extends \Core\Storage\Repository\Repository
+interface PostsRepository extends \WebLab\Core\Storage\Repository\Repository
 {
 	public function getAvailableCategories(): array;
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Storage\FileStorage\File;
+namespace WebLab\Core\Storage\FileStorage\File;
 
 class File
 {

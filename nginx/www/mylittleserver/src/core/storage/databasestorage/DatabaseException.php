@@ -1,7 +1,7 @@
 <?php
 
-namespace Core\Storage\DatabaseStorage;
-use Core\CoreException;
+namespace WebLab\Core\Storage\DatabaseStorage;
+use WebLab\Core\CoreException;
 
 class DatabaseException extends CoreException
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Core;
+namespace WebLab\Core;
 
-use Core\Log\LoggerAware;
+use WebLab\Core\Log\LoggerAware;
 
 class CoreException extends \Exception
 {

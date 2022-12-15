@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Rest\Response;
+namespace WebLab\Core\Rest\Response;
 
 enum ResponseType: string
 {

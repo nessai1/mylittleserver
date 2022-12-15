@@ -1,12 +1,12 @@
 <?php
 
-namespace Core\Log;
+namespace WebLab\Core\Log;
 
-use Core\Storage\FileStorage\File\PlainTextFile;
-use Core\Storage\FileStorage\Storage;
-use Core\Storage\FileStorage\StorageDoesNotExists;
-use Psr\Log\LoggerInterface;
-use Psr\Log\LogLevel;
+use WebLab\Core\Storage\FileStorage\File\PlainTextFile;
+use WebLab\Core\Storage\FileStorage\Storage;
+use WebLab\Core\Storage\FileStorage\StorageDoesNotExists;
+use WebLab\Psr\Log\LoggerInterface;
+use WebLab\Psr\Log\LogLevel;
 
 class Logger implements LoggerInterface
 {

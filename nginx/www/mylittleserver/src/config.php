@@ -8,3 +8,9 @@ $_ENV['database'] = [
 	'password' => 'mylittlepassword',
 	'database' => 'mylittleserver',
 ];
+
+$_ENV['integration_resources'] = [
+	'google_tables' => [
+		'key' => 'AIzaSyAxBQpgXzhM3NrGHTSt1K5_u56Pp2ZsvhU',
+	]
+];

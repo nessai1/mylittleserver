@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Page;
+namespace WebLab\Core\Page;
 
 interface Page
 {

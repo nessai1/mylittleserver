@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\Storage\FileStorage;
+namespace WebLab\Core\Storage\FileStorage;
 
-use Core\CoreException;
+use WebLab\Core\CoreException;
 
 class SectionException extends CoreException
 {

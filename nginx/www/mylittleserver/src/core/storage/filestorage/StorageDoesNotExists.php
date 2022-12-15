@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Storage\FileStorage;
+namespace WebLab\Core\Storage\FileStorage;
 
 class StorageDoesNotExists extends StorageException
 {

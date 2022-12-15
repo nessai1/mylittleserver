@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\Storage\FileStorage\File;
+namespace WebLab\Core\Storage\FileStorage\File;
 
-use Core\CoreException;
+use WebLab\Core\CoreException;
 use JetBrains\PhpStorm\Internal\LanguageLevelTypeAware;
 
 class FileException extends CoreException

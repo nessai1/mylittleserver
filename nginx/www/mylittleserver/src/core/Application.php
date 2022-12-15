@@ -1,9 +1,9 @@
 <?php
 
-namespace Core;
+namespace WebLab\Core;
 
-use Core\Storage\DatabaseStorage\Database;
-use Core\Storage\DatabaseStorage\DatabaseError;
+use WebLab\Core\Storage\DatabaseStorage\Database;
+use WebLab\Core\Storage\DatabaseStorage\DatabaseError;
 
 final class Application
 {
