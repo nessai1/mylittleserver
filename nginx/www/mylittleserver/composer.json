@@ -1,6 +1,6 @@
 {
   "require": {
-    "google/apiclient": "1.1.7",
+    "google/apiclient": "^2.12.1",
     "asimlqt/php-google-spreadsheet-client": "3.0.1"
   }
   ,
@@ -9,5 +9,12 @@
   },
   "autoload": {
     "psr-4": {"WebLab\\": "src/"}
+  },
+  "extra": {
+    "google/application-services": {
+      "enabled": [
+        "sheets.googleapis.com"
+      ]
+    }
   }
 }
